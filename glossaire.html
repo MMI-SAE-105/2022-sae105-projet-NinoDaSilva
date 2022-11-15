@@ -9,56 +9,89 @@
 </head>
 <body>
     <header x-data="{menuIsOpen: false}">
-        <a href="HomePage">
-            <img src="assets\Header\france.svg" alt="icône france">
+        <a href="/">
+            <img src="public/assets/Header/france.svg" alt="icone france">
         </a>
         <a href="index.html">
-            <img src="assets\R-Level.svg" alt="logo R-Level">
+            <img src="public/assets/R-Level.svg" alt="logo R-Level">
         </a>
         <button aria-controls="mainNav" aria-expanded="true" @click="menuIsOpen = ! menuIsOpen" class="header_menuBtn">
-            <img src="assets\Header\menu-open.svg" alt="menu">
+            <img src="public/assets/Header/menu-open.svg" alt="menu">
         </button>
         <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms class="menu">
             <ul>
                 <li>
                     <a href="film.html">Chappie
-                        <img src="assets\clap.svg" alt="icône film">
+                        <img src="public/assets/clap.svg" alt="icone film">
                     </a>
                 </li>
                 <li>
                     <a href="lieu.html">Pink Street
-                        <img src="assets\emplacement.svg" alt="icône lieu">
+                        <img src="public/assets/emplacement.svg" alt="icone lieu">
                     </a>
                 </li>
                 <li>
                     <a href="livre.html">Divergente
-                        <img src="assets\livre-ouvert.svg" alt="icône livre">
+                        <img src="public/assets/livre-ouvert.svg" alt="icone livre">
                     </a>
                 </li>
                 <li>
                     <a href="musique.html">Mon précieux
-                        <img src="assets\notesMusique.svg" alt="icône musique">
+                        <img src="public/assets/notesMusique.svg" alt="icone musique">
                     </a>
                 </li>
                 <li>
                     <a href="espoir.html">Le transport durable
-                        <img src="assets\espoir.svg" alt="icône espoir">
+                        <img src="public/assets/espoir.svg" alt="icone espoir">
                     </a>
                 </li>
                 <li>
                     <a href="crainte.html">La technologie
-                        <img src="assets\avertissement.svg" alt="icône crainte">
+                        <img src="public/assets/avertissement.svg" alt="icone crainte">
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
+
     <main>
-        
+        <h1>Glossaire</h1>
+        <dl>
+            <dt>Intelligence artificielle (IA) :</dt>
+            <dd>Ensemble de programmes informatiques associé à une machine qui lui permettent de reproduire des comportements liés aux humains, tels que le raisonnement, la planification et la créativité.</dd>
+            
+            <dt>Occupation nocturne :</dt>
+            <dd>Activités diverses et variées recherchées par des individus ; comme faire la fête, aller au bar ou en boîte de nuit.</dd>
+            
+            <dt>Lisboètes :</dt>
+            <dd>Habitant de la capitale du Portugal, Lisbonne.</dd>
+
+            <dt>Dystopique :</dt>
+            <dd>Est considéré comme dystopique, un récit de fiction dépeignant une société imaginaire organisée de telle façon qu'il soit impossible de lui échapper et dont les dirigeants peuvent exercer une autorité totale et sans contraintes de séparation des pouvoirs, sur des citoyens qui ne peuvent plus exercer leur libre arbitre.</dd>
+
+            <dt>Post-apocalyptique :</dt>
+            <dd>Moment qui se situe après une catastrophe ayant dévasté la Terre.</dd>
+
+            <dt>Darknets :</dt>
+            <dd>Il s’agit de sites web auxquels il est impossible d’accéder à l’aide d’un navigateur ordinaire. Ils ne fonctionnent que comme des passerelles vers le dark Web, vous donnant accès à un réseau spécifique. Vous pouvez trouver des activités et des sites légaux et illégaux sur le dark web, car il n’est pas du tout réglementé.</dd>
+
+            <dt>Web :</dt>
+            <dd>La Toile mondiale ou la Toile, est un système fonctionnant sur Internet. Le Web permet de consulter, avec un navigateur, des pages accessibles sur des sites. On fait bien la différence entre Internet et Web.</dd>
+
+            <dt>Cookies :</dt>
+            <dd>Un cookie est un fichier qui permet d'enregistrer des informations relatives à la navigation de votre ordinateur sur le site internet (ex. nombres de visites, nombre de pages vues…) et permet notamment de faciliter vos visites sur le site.</dd>
+
+            <dt>Infox :</dt>
+            <dd>Information mensongère ou délibérément biaisée, contribuant à la désinformation.</dd>
+
+            <dt>Hydrogène :</dt>
+            <dd>L'hydrogène est un gaz très léger dont la formule chimique est H2. Très inflammable, il est inodore, incolore, non toxique et non corrosif.</dd>
+        </dl>
     </main>    
+
     <footer>
-        <img src="assets\Footer\MMI_white.svg" alt="logo MMI">
-        <img src="assets\R-Level_white.svg" alt="logo R-Level">
+        <img src="public/assets/Footer/MMI_white.svg" alt="logo MMI">
+        <img src="public/assets/R-Level_white.svg" alt="logo R-Level">
         <nav>
             <ul class="footer">
                 <li><a href="glossaire.html">Glossaire</a></li>
@@ -70,22 +103,22 @@
         <ul>
             <li>
                 <a href="https://www.instagram.com/ndsa_9/?igshid=YmMyMTA2M2Y%3D">
-                    <img src="assets\Footer\instagram.svg" alt="icône instagram">
+                    <img src="public/assets/Footer/instagram.svg" alt="icone instagram">
                 </a>
             </li>
             <li>
                 <a href="https://www.facebook.com/people/Nino-Da-Silva/100082377857186/">
-                    <img src="assets\Footer\facebook.svg" alt="icône facebook">
+                    <img src="public/assets/Footer/facebook.svg" alt="icone facebook">
                 </a>
             </li>
             <li>
                 <a href="https://twitter.com/n1nO90?t=ttv00QOfcB6j4oQjnFgITw&s=33">
-                    <img src="assets\Footer\twitter.svg" alt="icône twitter">
+                    <img src="public/assets/Footer/twitter.svg" alt="icone twitter">
                 </a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/nino-da-silva-812374254">
-                    <img src="assets\Footer\linkedin.svg" alt="icône linkedin">
+                    <img src="public/assets/Footer/linkedin.svg" alt="icone linkedin">
                 </a>
             </li>
         </ul>
