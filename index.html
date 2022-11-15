@@ -1,55 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src\css\style.css">
+    <link rel="stylesheet" href="src/css/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
     <title>R-Level</title>
 </head>
 
 <body>
-    <header x-data="{menuIsOpen: false}">
+    <header>
         <a href="homePage">
-            <img src="public\assets\Header\france.svg" alt="icône france">
+            <img src="public/assets/Header/france.svg" alt="icone france">
         </a>
         <a href="index.html">
-            <img src="public\assets\R-Level.svg" alt="logo R-Level">
+            <img src="public/assets/R-Level.svg" alt="logo R-Level">
         </a>
-        <button aria-controls="mainNav" aria-expanded="true" @click="menuIsOpen = ! menuIsOpen" class="header_menu">
-            <img src="public\assets\Header\menu-open.svg" alt="menu">
+        <button x-data="{menuIsOpen: false}" aria-controls="mainNav" aria-expanded="true" @click="menuIsOpen = ! menuIsOpen" class="header_menu">
+            <img src="public/assets/Header/menu-open.svg" alt="menu">
         </button>
-        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms class="menu">
-            <ul>
+        <nav>
+            <ul id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms class="menu">
                 <li>
                     <a href="film.html">Chappie
-                        <img src="public\assets\clap.svg" alt="icône film">
+                        <img src="public/assets/clap.svg" alt="icone film">
                     </a>
                 </li>
                 <li>
                     <a href="lieu.html">Pink Street
-                        <img src="public\assets\emplacement.svg" alt="icône lieu">
+                        <img src="public/assets/emplacement.svg" alt="icone lieu">
                     </a>
                 </li>
                 <li>
                     <a href="livre.html">Divergente
-                        <img src="public\assets\livre-ouvert.svg" alt="icône livre">
+                        <img src="public/assets/livre-ouvert.svg" alt="icone livre">
                     </a>
                 </li>
                 <li>
                     <a href="musique.html">Mon précieux
-                        <img src="public\assets\notesMusique.svg" alt="icône musique">
+                        <img src="public/assets/notesMusique.svg" alt="icone musique">
                     </a>
                 </li>
                 <li>
                     <a href="espoir.html">Le transport durable
-                        <img src="public\assets\espoir.svg" alt="icône espoir">
+                        <img src="public/assets/espoir.svg" alt="icone espoir">
                     </a>
                 </li>
                 <li>
                     <a href="crainte.html">La technologie
-                        <img src="public\assets\avertissement.svg" alt="icône crainte">
+                        <img src="public/assets/avertissement.svg" alt="icone crainte">
                     </a>
                 </li>
             </ul>
@@ -64,50 +64,50 @@
         </p>
         <article>
             <a href="film.html">
-                <img src="public\Img\accueil\filmChappie.webp" alt="vignette page Chappie">
+                <img src="public/Img/accueil/filmChappie.webp" alt="vignette page Chappie">
             </a>
             <h2>Chappie, une histoire proche de la réalité ?</h2>
         </article>
 
         <article>
             <a href="lieu.html">
-                <img src="public\Img\accueil\lieuPS.webp" alt="vignette page Pink Street">
+                <img src="public/Img/accueil/lieuPS.webp" alt="vignette page Pink Street">
             </a>
             <h2>Pink Street : la rue colorée de Lisbonne</h2>
         </article>
         
         <article>
             <a href="livre.html">
-                <img src="public\Img\accueil\livreDivergent.webp" alt="vignette page Divergente">
+                <img src="public/Img/accueil/livreDivergent.webp" alt="vignette page Divergente">
             </a>
             <h2>Divergente, l'image d'une société future ?</h2>
         </article>
 
         <article>
             <a href="musique.html">
-                <img src="public\Img\accueil\musiqueSoprano.webp" alt="vignette page Mon précieux">
+                <img src="public/Img/accueil/musiqueSoprano.webp" alt="vignette page Mon précieux">
             </a>
             <h2>"Mon précieux", faut-il se remettre en question ?</h2>
         </article>
 
         <article>
             <a href="crainte.html">
-                <img src="public\Img\accueil\crainteTech.webp" alt="vignette page La technologie">
+                <img src="public/Img/accueil/crainteTech.webp" alt="vignette page La technologie">
             </a>
             <h2>La technologie, un danger pour l'Homme ?</h2>
             </article>
 
         <article>
             <a href="espoir.html">
-                <img src="public\Img\accueil\espoirTransp.webp" alt="vignette page Le transport durable">
+                <img src="public/Img/accueil/espoirTransp.webp" alt="vignette page Le transport durable">
             </a>
             <h2>Le transport durable : le défi de notre génération</h2>
         </article>
     </main>    
 
     <footer>
-        <img src="public\assets\Footer\MMI_white.svg" alt="logo MMI">
-        <img src="public\assets\R-Level_white.svg" alt="logo R-Level">
+        <img src="public/assets/Footer/MMI_white.svg" alt="logo MMI">
+        <img src="public/assets/R-Level_white.svg" alt="logo R-Level">
         <nav>
             <ul class="footer">
                 <li><a href="glossaire.html">Glossaire</a></li>
@@ -119,22 +119,22 @@
         <ul>
             <li>
                 <a href="https://www.instagram.com/ndsa_9/?igshid=YmMyMTA2M2Y%3D">
-                    <img src="assets\Footer\instagram.svg" alt="icône instagram">
+                    <img src="assets/Footer/instagram.svg" alt="icone instagram">
                 </a>
             </li>
             <li>
                 <a href="https://www.facebook.com/people/Nino-Da-Silva/100082377857186/">
-                    <img src="assets\Footer\facebook.svg" alt="icône facebook">
+                    <img src="assets/Footer/facebook.svg" alt="icone facebook">
                 </a>
             </li>
             <li>
                 <a href="https://twitter.com/n1nO90?t=ttv00QOfcB6j4oQjnFgITw&s=33">
-                    <img src="assets\Footer\twitter.svg" alt="icône twitter">
+                    <img src="assets/Footer/twitter.svg" alt="icone twitter">
                 </a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/nino-da-silva-812374254">
-                    <img src="assets\Footer\linkedin.svg" alt="icône linkedin">
+                    <img src="assets/Footer/linkedin.svg" alt="icone linkedin">
                 </a>
             </li>
         </ul>
