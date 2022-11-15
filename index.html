@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="src\css\style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
     <title>R-Level</title>
 </head>
@@ -12,44 +12,44 @@
 <body>
     <header x-data="{menuIsOpen: false}">
         <a href="homePage">
-            <img src="assets\Header\france.svg" alt="icône france">
+            <img src="public\assets\Header\france.svg" alt="icône france">
         </a>
         <a href="index.html">
-            <img src="assets\R-Level.svg" alt="logo R-Level">
+            <img src="public\assets\R-Level.svg" alt="logo R-Level">
         </a>
         <button aria-controls="mainNav" aria-expanded="true" @click="menuIsOpen = ! menuIsOpen" class="header_menu">
-            <img src="assets\Header\menu-open.svg" alt="menu">
+            <img src="public\assets\Header\menu-open.svg" alt="menu">
         </button>
         <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms class="menu">
             <ul>
                 <li>
                     <a href="film.html">Chappie
-                        <img src="assets\clap.svg" alt="icône film">
+                        <img src="public\assets\clap.svg" alt="icône film">
                     </a>
                 </li>
                 <li>
                     <a href="lieu.html">Pink Street
-                        <img src="assets\emplacement.svg" alt="icône lieu">
+                        <img src="public\assets\emplacement.svg" alt="icône lieu">
                     </a>
                 </li>
                 <li>
                     <a href="livre.html">Divergente
-                        <img src="assets\livre-ouvert.svg" alt="icône livre">
+                        <img src="public\assets\livre-ouvert.svg" alt="icône livre">
                     </a>
                 </li>
                 <li>
                     <a href="musique.html">Mon précieux
-                        <img src="assets\notesMusique.svg" alt="icône musique">
+                        <img src="public\assets\notesMusique.svg" alt="icône musique">
                     </a>
                 </li>
                 <li>
                     <a href="espoir.html">Le transport durable
-                        <img src="assets\espoir.svg" alt="icône espoir">
+                        <img src="public\assets\espoir.svg" alt="icône espoir">
                     </a>
                 </li>
                 <li>
                     <a href="crainte.html">La technologie
-                        <img src="assets\avertissement.svg" alt="icône crainte">
+                        <img src="public\assets\avertissement.svg" alt="icône crainte">
                     </a>
                 </li>
             </ul>
@@ -106,8 +106,8 @@
     </main>    
 
     <footer>
-        <img src="assets\Footer\MMI_white.svg" alt="logo MMI">
-        <img src="assets\R-Level_white.svg" alt="logo R-Level">
+        <img src="public\assets\Footer\MMI_white.svg" alt="logo MMI">
+        <img src="public\assets\R-Level_white.svg" alt="logo R-Level">
         <nav>
             <ul class="footer">
                 <li><a href="glossaire.html">Glossaire</a></li>
