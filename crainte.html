@@ -4,20 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
-    <title>R-Level</title>
+    <title>La technologie</title>
 </head>
-
 <body>
     <header x-data="{menuIsOpen: false}">
-        <a href="homePage">
+        <a href="HomePage">
             <img src="assets\Header\france.svg" alt="icône france">
         </a>
         <a href="index.html">
             <img src="assets\R-Level.svg" alt="logo R-Level">
         </a>
-        <button aria-controls="mainNav" aria-expanded="true" @click="menuIsOpen = ! menuIsOpen" class="header_menu">
+        <button aria-controls="mainNav" aria-expanded="true" @click="menuIsOpen = ! menuIsOpen" class="header_menuBtn">
             <img src="assets\Header\menu-open.svg" alt="menu">
         </button>
         <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms class="menu">
@@ -55,56 +53,9 @@
             </ul>
         </nav>
     </header>
-
     <main>
-        <p>Notre monde est en constante évolution. 
-            Mais l’évolution n’est pas simplement synonyme d’amélioration, elle peut tout à fait aller dans le mauvais sens du terme.
-            Nous avons certes aujourd’hui une grande maîtrise de certaines technologies, mais il reste encore beaucoup de chose à découvrir.
-            Et nul ne sait ce que nous pourrions en faire dans les prochaines années.
-        </p>
-        <article>
-            <a href="film.html">
-                <img src="public\Img\accueil\filmChappie.webp" alt="vignette page Chappie">
-            </a>
-            <h2>Chappie, une histoire proche de la réalité ?</h2>
-        </article>
-
-        <article>
-            <a href="lieu.html">
-                <img src="public\Img\accueil\lieuPS.webp" alt="vignette page Pink Street">
-            </a>
-            <h2>Pink Street : la rue colorée de Lisbonne</h2>
-        </article>
         
-        <article>
-            <a href="livre.html">
-                <img src="public\Img\accueil\livreDivergent.webp" alt="vignette page Divergente">
-            </a>
-            <h2>Divergente, l'image d'une société future ?</h2>
-        </article>
-
-        <article>
-            <a href="musique.html">
-                <img src="public\Img\accueil\musiqueSoprano.webp" alt="vignette page Mon précieux">
-            </a>
-            <h2>"Mon précieux", faut-il se remettre en question ?</h2>
-        </article>
-
-        <article>
-            <a href="crainte.html">
-                <img src="public\Img\accueil\crainteTech.webp" alt="vignette page La technologie">
-            </a>
-            <h2>La technologie, un danger pour l'Homme ?</h2>
-            </article>
-
-        <article>
-            <a href="espoir.html">
-                <img src="public\Img\accueil\espoirTransp.webp" alt="vignette page Le transport durable">
-            </a>
-            <h2>Le transport durable : le défi de notre génération</h2>
-        </article>
     </main>    
-
     <footer>
         <img src="assets\Footer\MMI_white.svg" alt="logo MMI">
         <img src="assets\R-Level_white.svg" alt="logo R-Level">

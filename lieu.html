@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
-    <title>R-Level</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Pink Street</title>
 </head>
-
 <body>
     <header x-data="{menuIsOpen: false}">
-        <a href="homePage">
+        <a href="\">
             <img src="assets\Header\france.svg" alt="icône france">
         </a>
         <a href="index.html">
             <img src="assets\R-Level.svg" alt="logo R-Level">
         </a>
-        <button aria-controls="mainNav" aria-expanded="true" @click="menuIsOpen = ! menuIsOpen" class="header_menu">
+        <button aria-controls="mainNav" aria-expanded="true" @click="menuIsOpen = ! menuIsOpen" class="header_menuBtn">
             <img src="assets\Header\menu-open.svg" alt="menu">
         </button>
         <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms class="menu">
@@ -55,55 +54,38 @@
             </ul>
         </nav>
     </header>
-
     <main>
-        <p>Notre monde est en constante évolution. 
-            Mais l’évolution n’est pas simplement synonyme d’amélioration, elle peut tout à fait aller dans le mauvais sens du terme.
-            Nous avons certes aujourd’hui une grande maîtrise de certaines technologies, mais il reste encore beaucoup de chose à découvrir.
-            Et nul ne sait ce que nous pourrions en faire dans les prochaines années.
-        </p>
-        <article>
-            <a href="film.html">
-                <img src="public\Img\accueil\filmChappie.webp" alt="vignette page Chappie">
-            </a>
-            <h2>Chappie, une histoire proche de la réalité ?</h2>
-        </article>
-
-        <article>
-            <a href="lieu.html">
-                <img src="public\Img\accueil\lieuPS.webp" alt="vignette page Pink Street">
-            </a>
-            <h2>Pink Street : la rue colorée de Lisbonne</h2>
-        </article>
+        <h1>Pink Street La rue colorée de Lisbonne</h1>
+        <img src="public\Img\lieu\PinkCouverture.webp" alt="Image de couverture Pink street">
         
-        <article>
-            <a href="livre.html">
-                <img src="public\Img\accueil\livreDivergent.webp" alt="vignette page Divergente">
-            </a>
-            <h2>Divergente, l'image d'une société future ?</h2>
-        </article>
-
-        <article>
-            <a href="musique.html">
-                <img src="public\Img\accueil\musiqueSoprano.webp" alt="vignette page Mon précieux">
-            </a>
-            <h2>"Mon précieux", faut-il se remettre en question ?</h2>
-        </article>
-
-        <article>
-            <a href="crainte.html">
-                <img src="public\Img\accueil\crainteTech.webp" alt="vignette page La technologie">
-            </a>
-            <h2>La technologie, un danger pour l'Homme ?</h2>
-            </article>
-
-        <article>
-            <a href="espoir.html">
-                <img src="public\Img\accueil\espoirTransp.webp" alt="vignette page Le transport durable">
-            </a>
-            <h2>Le transport durable : le défi de notre génération</h2>
-        </article>
-    </main>    
+        <p>Lisbonne est une ville très festive depuis que son tourisme à exploser. De nombreux bars et clubs ont vu le jour, ce qui ne déplais pas aux jeunes habitants de la capitale qui recherchent des occupations nocturnes.</p>
+        <h2>Où la trouver</h2>
+        <p>La Rua Nova do Carvalho située au centre de Lisbonne dans le quartier de Cais do Sodré, est plus connu sous le nom de Pink Street du fait de la couleur rose de son sol. 
+            Elle est réputée pour son côté très festifs avec de nombreux bar à thème et des boîtes de nuit. 
+        </p>
+        <h2>Une toute nouvelle image pour le quartier</h2>
+        <p>Pendant de longues années, cette rue accueillait des personnes aux intentions douteuses. C’était un lieu de mauvaise réputation puisqu’il accueillait la plupart du temps des criminels et des prostituées. 
+            Ce n’est qu’en 2011 avec un projet de rénovation et de modernisation qu’elle laisse place à des bars et des clubs musicaux d’un nouveau genre. A partir de là, les choses changent et la rue commence à être de plus en plus populaire auprès des jeunes Lisboètes mais surtout des touristes du monde entier qui y viennent pour profiter de la bonne ambiance festive.
+        </p>
+        <img src="public\Img\lieu\bar.webp" alt="Terrasse de bar à Pink street">
+        <legend>Terrasse de bar à Pink street</legend>
+        <h2>Un espace calme pendant la journée</h2>
+        <p>En journée la rue est plutôt calme, ce qui est parfait pour aller y faire une balade ou se détendre sur l’une des nombreuses terrasses de bar qui sont présentes. L’espace peut être visité comme une galerie d’art en plein air avec des façades originales et des vitrines atypiques. 
+            Si vous êtes un passionné en photographie ou tout simplement si vous chercher à faire « la photo Insta-gram parfaite », le meilleur moment pour le faire reste la journée, là où la rue est le moins fréquentée.
+        </p>
+        <h2>La nuit à Pink Street</h2>
+        <p>La nuit, la rue change totalement de face. Elle laisse derrière elle sa belle couleur rose pour faire place à une foule de personnes prêtes à s’amuser jusqu’au bout de la nuit. C’est à ce moment-là que les discothèques et les bars nocturnes entre en scène.</p>
+        <img src="public\Img\lieu\nuit1.webp" alt="Rue de nuit à Pink Street">
+        <img src="public\Img\lieu\disco.webp" alt="Discothèque à Pink Street">
+    </main>
+    
+    <section>
+        <h2>Lieux similaires</h2>
+        <div class="BAlto">
+            <h3>Bairro Alto</h3>
+            <img src="public\Img\lieu\BairroAlto.webp" alt="Bairro Alto">
+        </div>
+    </section>
 
     <footer>
         <img src="assets\Footer\MMI_white.svg" alt="logo MMI">
