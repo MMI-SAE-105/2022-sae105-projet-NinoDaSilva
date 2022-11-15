@@ -10,14 +10,14 @@
 </head>
 
 <body>
-    <header>
+    <header x-data="{menuIsOpen: false}">
         <a href="homePage">
             <img src="public/assets/Header/france.svg" alt="icone france">
         </a>
         <a href="index.html">
             <img src="public/assets/R-Level.svg" alt="logo R-Level">
         </a>
-        <button x-data="{menuIsOpen: false}" aria-controls="mainNav" aria-expanded="true" @click="menuIsOpen = ! menuIsOpen" class="header_menu">
+        <button aria-controls="mainNav" aria-expanded="true" @click="menuIsOpen = ! menuIsOpen" class="header_menu">
             <img src="public/assets/Header/menu-open.svg" alt="menu">
         </button>
         <nav>
