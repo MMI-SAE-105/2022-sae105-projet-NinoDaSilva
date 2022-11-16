@@ -1,0 +1,15 @@
+header {
+    background-color: #fafafa;
+}
+
+footer {
+    background-color: #1c1514;
+    color: #fafafa;
+}
+
+body {
+    background-color: #1D096C;
+    color: #fafafa;
+    font-family: "Overpass", sans-serif;
+    font-size: 11px;
+}

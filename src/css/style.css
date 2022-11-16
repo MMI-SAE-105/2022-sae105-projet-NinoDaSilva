@@ -1,8 +1,21 @@
-header {
-    background-color: #fafafa;
-}
+/* base */
+@import url("base/main.css");
 
-footer {
-    background-color: #1c1514;
-    color: #fafafa;
-}
+/* components */
+
+@import url("");
+
+/* layout */
+
+@import url("");
+
+/* utils*/
+
+@import url("utils/variables.css");
+
+/* vendors*/
+
+@import url("vendors/normalize.css");
+
+
+
