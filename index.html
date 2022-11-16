@@ -17,43 +17,47 @@
         <a href="index.html">
             <img src="public/assets/R-Level.svg" alt="logo R-Level">
         </a>
-        <button aria-controls="mainNav" aria-expanded="true" @click="menuIsOpen = ! menuIsOpen" class="header_menu">
-            <img src="public/assets/Header/menu-open.svg" alt="menu">
-        </button>
-        <nav>
-            <ul id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms class="menu">
-                <li>
-                    <a href="film.html">Chappie
-                        <img src="public/assets/clap.svg" alt="icone film">
-                    </a>
-                </li>
-                <li>
-                    <a href="lieu.html">Pink Street
-                        <img src="public/assets/emplacement.svg" alt="icone lieu">
-                    </a>
-                </li>
-                <li>
-                    <a href="livre.html">Divergente
-                        <img src="public/assets/livre-ouvert.svg" alt="icone livre">
-                    </a>
-                </li>
-                <li>
-                    <a href="musique.html">Mon précieux
-                        <img src="public/assets/notesMusique.svg" alt="icone musique">
-                    </a>
-                </li>
-                <li>
-                    <a href="espoir.html">Le transport durable
-                        <img src="public/assets/espoir.svg" alt="icone espoir">
-                    </a>
-                </li>
-                <li>
-                    <a href="crainte.html">La technologie
-                        <img src="public/assets/avertissement.svg" alt="icone crainte">
-                    </a>
-                </li>
-            </ul>
-        </nav>
+
+        <div class="header_menu">
+            <button aria-controls="mainNav" aria-expanded="true" aria-label="Open menu">
+                <img src="public/assets/Header/menu-open.svg" alt="menu">
+            </button>
+        
+            <nav id="mainNav">
+                <ul>
+                    <li>
+                        <a href="film.html">Chappie
+                            <img src="public/assets/clap.svg" alt="icone film">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="lieu.html">Pink Street
+                            <img src="public/assets/emplacement.svg" alt="icone lieu">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="livre.html">Divergente
+                            <img src="public/assets/livre-ouvert.svg" alt="icone livre">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="musique.html">Mon précieux
+                            <img src="public/assets/notesMusique.svg" alt="icone musique">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="espoir.html">Le transport durable
+                            <img src="public/assets/espoir.svg" alt="icone espoir">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="crainte.html">La technologie
+                            <img src="public/assets/avertissement.svg" alt="icone crainte">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
