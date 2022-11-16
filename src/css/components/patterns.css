@@ -1,0 +1,5 @@
+.patternA {
+    background-image: linear-gradient(white 15%, transparent 5%);
+    background-size: 50px 50px;
+    background-position: 0 0, 30px, 30px;
+}
