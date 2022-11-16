@@ -1,0 +1,22 @@
+:root {
+/* Color styles */
+--noir: #1C1514;
+--blanc: #FAFAFA;
+--gris-1: #CECAC7;
+--gris-2: #E8E7E3;
+--bleu-1: #1D096C;
+--bleu-2: #2C73D2;
+--bleu-3: #4DA9FF;
+--bleu-4: #C6E3FF;
+--orange: #FFB26B;
+
+/* Text-size styles */
+--heading-1: 30px;
+--heading-2: 22px;
+--heading-3: 22px;
+--subheading: 17px;
+--body-1: 13px;
+--body-2: 11px;
+--small-text: 11px;
+--pied-de-page: 14px;
+}

@@ -1,15 +1,68 @@
 header {
-    background-color: #fafafa;
+    background-color: var(--blanc);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 footer {
-    background-color: #1c1514;
-    color: #fafafa;
+    background-color: var(--noir);
+    color: var(--blanc);
+    padding: 10px;
+    text-align: center;
 }
 
 body {
-    background-color: #1D096C;
-    color: #fafafa;
-    font-family: "Overpass", sans-serif;
+    background-color: var(--bleu-1);
+    color: var(--blanc);
+}
+
+h1 {
+    color: var(--blanc);
+    font-size: 22px ;
+    font-family: 'Allerta', sans-serif;
+}
+
+h2 {
+    color: var(--blanc);
+    font-size: 17px ;
+    font-family: 'Allerta', sans-serif;
+}
+
+h3 {
+    color: var(--blanc);
+    font-size: 22px ;
+    font-family: 'Allerta', sans-serif;
+}
+
+h4 {
+    color: var(--blanc);
+    font-size: 17px ;
+    font-family: 'Allerta', sans-serif;
+}
+
+a {
+    color: var(--blanc);
+    text-decoration: none;
+    font-family: 'Overpass', sans-serif;
+    font-size: 13px;
+    font-style: italic, bold;
+}
+
+p {
+    color: var(--blanc);
+    font-size: 13px;
+    font-family: 'Overpass', sans-serif;
+}
+
+q {
+    color: var(--blanc);
+    font-size: 13px;
+    font-family: 'Overpass', sans-serif;
+}
+
+legend {
+    color: var(--gris-1);
     font-size: 11px;
+    font-family: 'Estedad-VF', sans-serif;
 }
