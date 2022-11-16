@@ -17,6 +17,19 @@ body {
     color: var(--blanc);
 }
 
+a {
+    color: var(--blanc);
+    text-decoration: none;
+    font-family: 'Overpass';
+    font-size: 13px;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 h1 {
     color: var(--blanc);
     font-size: 22px ;
@@ -47,14 +60,6 @@ p {
     font-family: 'Overpass';
 }
 
-a {
-    color: var(--blanc);
-    text-decoration: none;
-    font-family: 'Overpass';
-    font-size: 13px;
-    font-style: italic;
-}
-
 q {
     color: var(--blanc);
     font-size: 13px;
@@ -64,5 +69,15 @@ q {
 legend {
     color: var(--gris-1);
     font-size: 11px;
+    font-family: 'Overpass';
+}
+
+article {
+    padding: 30px;
+    padding-bottom: 60px;
+}
+
+.foot {
+    font-style: normal;
     font-family: 'Overpass';
 }
