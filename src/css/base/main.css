@@ -74,6 +74,10 @@ a {
     font-size: var(--body-1);
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 p>a {
     font-style: italic;
 }
