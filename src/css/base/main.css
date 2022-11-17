@@ -1,3 +1,10 @@
+body {
+    background-color: var(--bleu-1);
+    color: var(--blanc);
+    font-family: var(--main);
+    font-size: var(--body-1);
+}
+
 header {
     background-color: var(--blanc);
     padding-top: 30px;
@@ -12,13 +19,7 @@ footer {
     text-align: center;
 }
 
-body {
-    background-color: var(--bleu-1);
-    color: var(--blanc);
-}
-
 p>a {
-    color: var(--blanc);
     text-decoration: none;
     font-family: 'Overpass';
     font-size: var(--body-1);
@@ -31,19 +32,16 @@ img {
 }
 
 h1 {
-    color: var(--blanc);
     font-size: var(--heading-2) ;
     font-family: 'Allerta';
 }
 
 h2 {
-    color: var(--blanc);
     font-size: var(--subheading) ;
     font-family: 'Allerta';
 }
 
 h3 {
-    color: var(--blanc);
     font-size: var(--heading-2) ;
     font-family: 'Allerta';
 }
@@ -55,13 +53,11 @@ h4 {
 }
 
 p {
-    color: var(--blanc);
     font-size: var(--body-1);
     font-family: 'Overpass';
 }
 
 q {
-    color: var(--blanc);
     font-size: var(--body-1);
     font-family: 'Overpass';
 }

@@ -17,4 +17,8 @@
 --body-1: 13px;
 --small-text: 11px;
 --pied-de-page: 14px;
+
+/* police */
+--main: 'Overpass', sans-serif;
+--secondary: 'Allerta', sans-serif;
 }
