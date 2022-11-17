@@ -19,13 +19,6 @@ footer {
     text-align: center;
 }
 
-p>a {
-    text-decoration: none;
-    font-family: 'Overpass';
-    font-size: var(--body-1);
-    font-style: italic;
-}
-
 img {
     max-width: 100%;
     max-height: 100%;
@@ -33,39 +26,36 @@ img {
 
 h1 {
     font-size: var(--heading-2) ;
-    font-family: 'Allerta';
+    font-family: var(--secondary);
 }
 
 h2 {
     font-size: var(--subheading) ;
-    font-family: 'Allerta';
+    font-family: var(--secondary);
 }
 
 h3 {
     font-size: var(--heading-2) ;
-    font-family: 'Allerta';
+    font-family: var(--secondary);
 }
 
 h4 {
     color: var(--orange);
     font-size: var(--body-1) ;
-    font-family: 'Allerta';
+    font-family: var(--secondary);
 }
 
 p {
     font-size: var(--body-1);
-    font-family: 'Overpass';
 }
 
 q {
     font-size: var(--body-1);
-    font-family: 'Overpass';
 }
 
 legend {
     color: var(--gris-1);
     font-size: var(--small-text);
-    font-family: 'Overpass';
 }
 
 article {
@@ -76,6 +66,16 @@ article {
 ul {
     list-style: none;
     font-style: normal;
+}
+
+a {
+    color: var(--blanc);
+    text-decoration: none;
+    font-size: var(--body-1);
+}
+
+p>a {
+    font-style: italic;
 }
 
 p.footer {
