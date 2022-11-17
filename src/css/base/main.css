@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: var(--blanc);
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 10px;
     text-align: center;
 }
@@ -19,25 +19,21 @@ footer {
     text-align: center;
 }
 
+h1, h2, h3, h4 {
+    font-family: var(--secondary);
+}
+
 h1 {
     font-size: var(--heading-2) ;
-    font-family: var(--secondary);
 }
 
 h2 {
     font-size: var(--subheading) ;
-    font-family: var(--secondary);
-}
-
-h3 {
-    font-size: var(--heading-2) ;
-    font-family: var(--secondary);
 }
 
 h4 {
     color: var(--orange);
     font-size: var(--body-1) ;
-    font-family: var(--secondary);
 }
 
 p {
