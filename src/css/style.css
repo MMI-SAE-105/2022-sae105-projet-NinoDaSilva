@@ -1,24 +1,19 @@
 /* font*/
 @import url('https://fonts.googleapis.com/css2?family=Allerta&family=Overpass:ital,wght@0,300;1,700&display=swap');
 
+/* vendors*/
+@import url("vendors/normalize.css");
+
+/* utils*/
+@import url("utils/variables.css");
+
 /* base */
 @import url("base/main.css");
 
-/* components */
-
-@import url("components/patterns.css");
-
 /* layout */
-
 @import url("/");
 
-/* utils*/
-
-@import url("utils/variables.css");
-
-/* vendors*/
-
-@import url("vendors/normalize.css");
-
+/* components */
+@import url("components/patterns.css");
 
 
