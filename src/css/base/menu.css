@@ -1,5 +1,4 @@
 .nav-toggle {
-    background-color: tomato;
     width: 40px;
     height: 40px;
     position: absolute;
@@ -30,6 +29,10 @@
     top: 10px;
 }
 
+.menu-open .menu {
+    transform: translateX(0);
+}
+
 .menu {
     background-color: var(--bleu-2);
     position: fixed;
@@ -40,10 +43,14 @@
     top: 0;
     left: 0;
     right: 0;
+    bottom: 25%;
     font-size: var(--heading-2);
     font-family: var(--secondary);
     display: flex;
     text-align: right;
     justify-content: right;
+    align-items: center;
     line-height: 250%;
+    transform: translateX(100%);
+    transition: 0.5s ease-in-out;
 }

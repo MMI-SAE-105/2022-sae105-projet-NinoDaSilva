@@ -5,23 +5,6 @@ body {
     font-size: var(--body-1);
 }
 
-header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: var(--blanc);
-    padding-top: 40px;
-    padding-bottom: 10px;
-}
-
-footer {
-    background-color: var(--noir);
-    color: var(--blanc);
-    padding: 10px;
-    text-align: center;
-}
-
 h1, h2, h3, h4 {
     font-family: var(--secondary);
 }
