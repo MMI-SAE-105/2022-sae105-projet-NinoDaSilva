@@ -28,10 +28,11 @@
 }
 
 .menu-open .menu {
-    transform: translateY(0);
+    visibility: visible;
 }
 
 .menu {
+    visibility: hidden;
     background-color: var(--bleu-2);
     position: absolute;
     padding-bottom: 15px;
@@ -46,7 +47,6 @@
     justify-content: right;
     align-items: center;
     line-height: 250%;
-    transform: translateX(100%);
-    transition: 0.5s ease-in-out;
+    transition: color 1s;
     margin-top: 5%;
 }
