@@ -3,7 +3,7 @@ body {
     color: var(--blanc);
     font-family: var(--main);
     font-size: var(--body-1);
-    overflow: hidden;
+    max-width: 100%;
 }
 
 h1, h2, h3, h4 {
