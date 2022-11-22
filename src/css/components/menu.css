@@ -2,11 +2,9 @@
     width: 40px;
     height: 40px;
     position: absolute;
-    top: 50px;
-    right: 40px;
-    display: flex;
-    align-items: center;
-    justify-self: center;
+    bottom: 0;
+    right: 8%;
+
 }
 
 .nav-toggle-bar,
@@ -36,11 +34,10 @@
 .menu {
     background-color: var(--bleu-2);
     position: fixed;
-    margin-top: 95px;
     padding-bottom: 15px;
     padding-right: 40px;
     padding-top: 15px;
-    top: 0;
+    top: 11%;
     left: 0;
     right: 0;
     bottom: 25%;
