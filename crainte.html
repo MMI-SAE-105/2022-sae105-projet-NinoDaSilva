@@ -9,17 +9,20 @@
     <title>La technologie</title>
 </head>
 <body>
-    <header x-data="{menuIsOpen: false}">
-        <a href="/apropos.html">
-            <img src="public/assets/Header/france.svg" alt="icone france">
-        </a>
-        <a href="index.html">
-            <img src="public/assets/R-Level.svg" alt="logo R-Level">
-        </a>
-        <button aria-controls="mainNav" aria-expanded="true" @click="menuIsOpen = ! menuIsOpen" class="header_menuBtn">
-            <img src="public/assets/Header/menu-open.svg" alt="menu">
-        </button>
-        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms class="menu">
+    <header>
+        <div class="header">
+            <a href="en/homePage.html" class="langue"> 
+                <img src="public/assets/Header/france.svg" alt="icone france">
+            </a>
+            <a href="index.html" class="logo">
+                <img src="public/assets/R-Level.svg" alt="logo R-Level">
+            </a>
+
+            <div class="nav-toggle" onclick="document.body.classList.toggle('menu-open')">
+                <div class="nav-toggle-bar"></div>
+            </div>
+        </div>
+        <nav class="menu">
             <ul>
                 <li>
                     <a href="film.html">Chappie
@@ -33,7 +36,7 @@
                 </li>
                 <li>
                     <a href="livre.html">Divergente
-                        <img src="public/assets/livre-ouvert.svg" alt="icone livre">
+                       <img src="public/assets/livre-ouvert.svg" alt="icone livre">
                     </a>
                 </li>
                 <li>
@@ -83,6 +86,7 @@
         <p>La pratique de la technologie Deepfake est aujourd’hui surtout utilisée pour effectuer des canulars ou des parodies humoristiques. Et les Français ont très bien pu le remarquer grâce à la vidéo produite par French Faker. 
             Une reprise du court métrage « Les dessous du pouvoir » réalisé par Maxime Baudin pour le Nikon Film Festival. On peut y voir le président Emmanuel Macron faisant un discours très particulier.
         </p>
+        <label for="video">Vidéo deepfake du président Emmanuel Macron</label>
         <video controls>
             <source src="public/video/MacronDeepfake.mp4" type="video/mp4">
     </main>    

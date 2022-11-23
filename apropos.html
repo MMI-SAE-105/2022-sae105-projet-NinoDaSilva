@@ -9,17 +9,20 @@
     <title>A propos</title>
 </head>
 <body>
-    <header x-data="{menuIsOpen: false}">
-        <a href="/">
-            <img src="public/assets/Header/france.svg" alt="icone france">
-        </a>
-        <a href="index.html">
-            <img src="public/assets/R-Level.svg" alt="logo R-Level">
-        </a>
-        <button aria-controls="mainNav" aria-expanded="true" @click="menuIsOpen = ! menuIsOpen" class="header_menuBtn">
-            <img src="public/assets/Header/menu-open.svg" alt="menu">
-        </button>
-        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.400ms class="menu">
+    <header>
+        <div class="header">
+            <a href="en/homePage.html" class="langue"> 
+                <img src="public/assets/Header/france.svg" alt="icone france">
+            </a>
+            <a href="index.html" class="logo">
+                <img src="public/assets/R-Level.svg" alt="logo R-Level">
+            </a>
+
+            <div class="nav-toggle" onclick="document.body.classList.toggle('menu-open')">
+                <div class="nav-toggle-bar"></div>
+            </div>
+        </div>
+        <nav class="menu">
             <ul>
                 <li>
                     <a href="film.html">Chappie
@@ -33,7 +36,7 @@
                 </li>
                 <li>
                     <a href="livre.html">Divergente
-                        <img src="public/assets/livre-ouvert.svg" alt="icone livre">
+                       <img src="public/assets/livre-ouvert.svg" alt="icone livre">
                     </a>
                 </li>
                 <li>
