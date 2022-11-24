@@ -6,6 +6,7 @@ header {
     background-color: var(--blanc);
     padding: 15px;
     justify-content: center;
+    z-index: 2;
 }
 
 div.header {
@@ -15,6 +16,5 @@ div.header {
 }
 
 a.langue {
-    position: ;
     left: 20%;
 }
