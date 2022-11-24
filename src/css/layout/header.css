@@ -6,7 +6,7 @@ header {
     background-color: var(--blanc);
     padding: 15px;
     justify-content: center;
-    z-index: 2;
+    z-index: initial;
 }
 
 div.header {
