@@ -4,15 +4,17 @@ header {
     right: 0;
     left: 0;
     background-color: var(--blanc);
-    padding: 18px;
+    padding: 15px;
+    justify-content: center;
 }
 
-a.logo {
-    position: absolute;
-    left: 36%;
-    top: 35%;
+div.header {
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 a.langue {
-    left: 5%;
+    position: ;
+    left: 20%;
 }
