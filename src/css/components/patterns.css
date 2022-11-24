@@ -1,13 +1,16 @@
 .patternA {
     background: radial-gradient(circle, var(--noir) 40%, transparent 5%);
-    background-size: 2em 2em;
-    
+    background-size: 1em 1em;
+    block-size: 30px;
+
+    /* test à suppr */
+    border: 1px solid var(--bleu-2);
 }
 
 .patternB {
     background: radial-gradient(circle, var(--bleu-2) 40%, transparent 5%);
-    background-size: 2em 2em;
-    block-size: 300px;
+    background-size: 1em 1em;
+    block-size: 100px, 150px, 100px;
 
     /* test à suppr */
     border: 1px solid var(--bleu-2);
