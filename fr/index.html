@@ -12,14 +12,16 @@
 <body>
     <header>
         <div class="header">
-            <a href="../en/homePage.html" class="header__icone-langue"> 
-                <img src="../public/assets/Header/france.svg" alt="icone france">
-            </a>
-            <a href="./index.html" class="header__icone-logo">
-                <img src="../public/assets/R-Level.svg" alt="logo R-Level">
-            </a>
-            <div class="menu__nav-toggle" onclick="document.body.classList.toggle('menu-open')">
-                <div class="menu__nav-toggle-bar"></div>
+            <div class="header__elt">
+                <a href="../en/homePage.html"> 
+                    <img class="header__icon--langue" src="../public/assets/Header/france.svg" alt="icone france">
+                </a>
+                <a href="./index.html">
+                    <img class="header__icon--rlevel" src="../public/assets/R-Level.svg" alt="logo R-Level">
+                </a>
+                <div class="menu__nav-toggle" onclick="document.body.classList.toggle('menu-open')">
+                    <div class="menu__nav-toggle-bar"></div>
+                </div>
             </div>
         </div>
         <nav class="menu">
@@ -118,8 +120,8 @@
     </main>    
 
     <footer>
-        <img src="../public/assets/Footer/MMI_white.svg" alt="logo MMI">
-        <img src="../public/assets/R-Level_white.svg" alt="logo R-Level">
+        <img class="footer__logo--mmi" src="../public/assets/Footer/MMI_white.svg" alt="logo MMI">
+        <img class="footer__logo--rlevel" src="../public/assets/R-Level_white.svg" alt="logo R-Level">
         <nav>
             <ul>
                 <li class="footer__list"><a href="./glossaire.html">Glossaire</a></li>
@@ -128,33 +130,35 @@
                 <li class="footer__list"><a href="./autresProjets.html">Autres projets</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="footer__social">
             <li>
                 <a href="https://www.instagram.com/ndsa_9/?igshid=YmMyMTA2M2Y%3D">
-                    <img src="../public/assets/Footer/instagram.svg" alt="icone instagram">
+                    <img class="footer__social--icon" src="../public/assets/Footer/instagram.svg" alt="icone instagram">
                 </a>
             </li>
             <li>
                 <a href="https://www.facebook.com/people/Nino-Da-Silva/100082377857186/">
-                    <img src="../public/assets/Footer/facebook.svg" alt="icone facebook">
+                    <img class="footer__social--icon" src="../public/assets/Footer/facebook.svg" alt="icone facebook">
                 </a>
             </li>
             <li>
                 <a href="https://twitter.com/n1nO90?t=ttv00QOfcB6j4oQjnFgITw&s=33">
-                    <img src="../public/assets/Footer/twitter.svg" alt="icone twitter">
+                    <img class="footer__social--icon" src="../public/assets/Footer/twitter.svg" alt="icone twitter">
                 </a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/nino-da-silva-812374254">
-                    <img src="../public/assets/Footer/linkedin.svg" alt="icone linkedin">
+                    <img class="footer__social--icon" src="../public/assets/Footer/linkedin.svg" alt="icone linkedin">
                 </a>
             </li>
         </ul>
         <a href="mailto:ndsa.nino@gmail.com" class="footer__mailto">ndsa.nino@gmail.com</a>
         <p class="footer__text">Projet réalisé dans le cadre d'un exercice pédagogique au département</p>
         <a href="http://mmimontbeliard.com/" class="footer__mmi">MMI de Montbéliard</a>
-        <p class="footer__nom">Nino DA SILVA</p>
-        <p class="footer__nom">MMI 1</p>
+        <div class="footer__id">   
+            <p>Nino DA SILVA</p>
+            <p>MMI 1</p>
+        </div>
     </footer>
 </body>
 </html>

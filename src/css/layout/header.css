@@ -2,5 +2,11 @@
     position: relative;
     background-color: var(--blanc);
     padding: 15px;
-    z-index: 1;
+    padding-bottom: 5px;
+}
+
+.header__elt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

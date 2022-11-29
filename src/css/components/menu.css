@@ -14,16 +14,13 @@
     justify-content: right;
     align-items: center;
     line-height: 200%;
-    z-index: 2;
 }
 
 .menu__nav-toggle {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    bottom: 0;
-    right: 8%;
-
+    width: 30px;
+    height: 6px;
+    position: relative;
+    right: 5px;
 }
 
 .menu__nav-toggle-bar,

@@ -2,12 +2,11 @@ footer {
     background-color: var(--noir);
     color: var(--blanc);
     padding: 10px;
-    padding-bottom: 20px;
     text-align: center;
 }
 
 .footer__list {
-    padding: 15px;
+    padding: 10px;
 }
 
 .footer__text {
@@ -23,12 +22,12 @@ footer {
     text-decoration: underline;
 }
 
-.footer__nom {
+.footer__id {
     font-size: var(--pied-de-page);
     color: var(--gris-2);
-    margin: 0;
-    display: inline;
-    margin-inline: 10px;
+    display: flex;
+    margin-inline: 6px;
+    justify-content: space-between;
 }
 
 .footer__mmi {
@@ -36,5 +35,28 @@ footer {
     text-transform: bold;
     font-size: var(--small-text);
     padding-bottom: 20px;
+}
+
+.footer__logo--rlevel {
+    display: inline;
+}
+
+.footer__logo--mmi {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    padding: 10px;   
+}
+
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.footer__social--icon {
+    height: 34px;
+    width: 34px;
+    margin-inline: 30px;
 }
 
