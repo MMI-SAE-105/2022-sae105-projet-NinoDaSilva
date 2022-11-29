@@ -1,7 +1,7 @@
 - NOM : DA SILVA
 - PRÉNOM : Nino
-- URL du site :
-- URL FIGMA :
+- URL du site : r-level.nino-da-silva.fr
+- URL FIGMA : https://www.figma.com/file/X5xYlnsYLf0FUW5WMRRtDL/Maquettes-projet-individuel-%E2%80%94-Nino-DA-SILVA?node-id=801%3A842&t=r97Eccavy0Lk6Le0-1
 
 # Structure de départ pour le projet individuel.
 

@@ -5,3 +5,7 @@ img {
 video {
    max-width: 100%;
 }
+
+article img {
+    border-radius: 5%;
+}

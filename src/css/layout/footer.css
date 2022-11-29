@@ -2,20 +2,39 @@ footer {
     background-color: var(--noir);
     color: var(--blanc);
     padding: 10px;
+    padding-bottom: 20px;
     text-align: center;
+}
+
+.footer__list {
+    padding: 15px;
 }
 
 .footer__text {
     font-size: var(--small-text);
     color: var(--gris-1);
+    padding-top: 30px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.footer__mailto {
+    color: var(--gris-1);
+    text-decoration: underline;
 }
 
 .footer__nom {
     font-size: var(--pied-de-page);
     color: var(--gris-2);
-    justify-content: space-between;
+    margin: 0;
+    display: inline;
+    margin-inline: 10px;
 }
 
-.footer__nom--groupe {
-    display: inline;
+.footer__mmi {
+    display: block;
+    text-transform: bold;
+    font-size: var(--small-text);
+    padding-bottom: 20px;
 }
+
