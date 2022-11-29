@@ -4,3 +4,18 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+.footer__text {
+    font-size: var(--small-text);
+    color: var(--gris-1);
+}
+
+.footer__nom {
+    font-size: var(--pied-de-page);
+    color: var(--gris-2);
+    justify-content: space-between;
+}
+
+.footer__nom--groupe {
+    display: inline;
+}

@@ -1,20 +1,6 @@
-header {
+.header {
     position: relative;
-    top: 0;
-    right: 0;
-    left: 0;
     background-color: var(--blanc);
     padding: 15px;
-    justify-content: center;
-    z-index: initial;
-}
-
-div.header {
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-a.langue {
-    left: 20%;
+    z-index: 1;
 }
