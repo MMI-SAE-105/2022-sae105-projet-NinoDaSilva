@@ -19,3 +19,5 @@
 /* components */
 @import url("components/menu.css");
 @import url("components/patterns.css");
+@import url("components/article.css");
+@import url("components/form.css");

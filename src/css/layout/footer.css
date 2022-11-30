@@ -7,6 +7,7 @@ footer {
 
 .footer__list {
     padding: 10px;
+    font-size: var(--pied-de-page);
 }
 
 .footer__text {
