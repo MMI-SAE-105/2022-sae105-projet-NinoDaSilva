@@ -8,7 +8,7 @@ footer {
 
 .footer__list {
     padding: 10px;
-    font-size: var(--pied-de-page);
+    font-size: var(--body-2);
 }
 
 .footer__text {
@@ -25,7 +25,7 @@ footer {
 }
 
 .footer__id {
-    font-size: var(--pied-de-page);
+    font-size: var(--body-2);
     color: var(--gris-2);
     display: flex;
     margin-inline: 6px;

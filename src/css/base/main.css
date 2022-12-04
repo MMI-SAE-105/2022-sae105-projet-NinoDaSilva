@@ -93,3 +93,26 @@ dd {
     font-size: var(--subheading);
     font-weight: bold;
 }
+
+
+.project,
+.project__title {
+    text-align: center;
+}
+
+
+.project__title {
+    font-size: var(--body-2);
+    padding-top: 30px;
+}
+
+.project__title--date {
+    font-size: var(--body-1);
+    line-height: 180%;
+}
+
+.project__name {
+    padding-top: 25px;
+    padding-bottom: 6px;
+    font-size: var(--subheading);
+}
