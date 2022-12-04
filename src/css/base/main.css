@@ -3,15 +3,19 @@ body {
     color: var(--blanc);
     font-family: var(--main);
     font-size: var(--body-1);
+    line-height: 140%;
 }
 
-main {
+.content__text {
     margin: 10px;
+}
+
+p, h1, h2, h3, h4 {
+    margin: 0;
 }
 
 h1, h2, h3, h4 {
     font-family: var(--secondary);
-    margin: 0;
 }
 
 h1, h2, h3 {
@@ -42,8 +46,12 @@ a:hover {
     text-decoration: underline;
 }
 
+.home,
 .home__intro {
     margin: 10px;
+}
+
+.home__intro {
     margin-top: 23%;
     margin-bottom: 20%;
     margin-right: 0;
@@ -52,7 +60,6 @@ a:hover {
 .home__intro--text {
     margin: 0;
     margin-inline: 10px;
-    line-height: 140%;
     position: relative;
     z-index: 1;
 }
@@ -60,6 +67,15 @@ a:hover {
 p>a {
     font-style: italic;
     font-size: var(--body-1);
+}
+
+.about__title {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.about__text {
+    padding-bottom: 20px;
 }
 
 
