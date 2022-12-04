@@ -102,13 +102,16 @@ dd {
 
 
 .project__title {
-    font-size: var(--body-2);
+    font-size: var(--subheading);
     padding-top: 30px;
+    line-height: 140%;
 }
 
 .project__title--date {
-    font-size: var(--body-1);
-    line-height: 180%;
+    font-size: var(--body-2);
+    font-family: var(--main);
+    color: var(--bleu-4);
+    padding-top: 5px;
 }
 
 .project__name {
