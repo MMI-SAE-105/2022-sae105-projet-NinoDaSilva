@@ -79,3 +79,17 @@ p>a {
 }
 
 
+dd {
+    margin: 0;
+}
+
+.glossary__title,
+.glossary__word {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.glossary__word {
+    font-size: var(--subheading);
+    font-weight: bold;
+}
