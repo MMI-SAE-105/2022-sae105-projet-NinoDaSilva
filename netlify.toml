@@ -1,0 +1,14 @@
+[[plugins]]
+ package = "@netlify/plugin-lighthouse"
+ 
+  [[plugins.inputs.audits]]
+    output_path="reports/accueil.html"
+    path = "2022-sae105-projet-NinoDaSilva" #la racine du site
+
+  [[plugins.inputs.audits]]
+    output_path = "reports/index.html"
+    path = "fr/index.html" #le chemin du fichier à tester
+    
+  [[plugins.inputs.audits]]
+    output_path = "reports/fr/autresProjets.html"
+    path = "fr/autresProjets.html"
