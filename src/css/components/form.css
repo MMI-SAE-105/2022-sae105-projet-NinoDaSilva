@@ -47,3 +47,9 @@ form {
     padding-left: 10px;
     padding-top: 15px;
 }
+
+.form__button:focus {
+    background-color: var(--bleu-2);
+    transform: scaleX(108%);
+    transition: 0.2s;
+}
