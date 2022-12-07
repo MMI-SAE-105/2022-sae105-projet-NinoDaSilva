@@ -33,7 +33,7 @@ form {
 .form__button {
     border-radius: 30px;
     padding: 8px;
-    padding-bottom: 7px;
+    padding-bottom: 6px;
     margin-left: 10px;
     width: 80px;
     margin-top: 20px;
@@ -52,4 +52,10 @@ form {
     background-color: var(--bleu-2);
     transform: scaleX(108%);
     transition: 0.2s;
+}
+
+.form__input input:focus,
+.form__input textarea:focus {
+    transform: scale(101%);
+    border: solid 2px var(--bleu-3);
 }
