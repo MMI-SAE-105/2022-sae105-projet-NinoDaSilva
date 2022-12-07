@@ -18,8 +18,12 @@ h1, h2, h3, h4 {
     font-family: var(--secondary);
 }
 
-h1, h2, h3 {
+h2, h3 {
     font-size: var(--heading-2);
+}
+
+h1 {
+    font-size: var(--heading-1);
 }
 
 h4 {

@@ -1,4 +1,15 @@
-.couverture {
-    
+.couverture__titre {
+    position: absolute;
+    right: 12px;
+    bottom: 100px;
+    line-height: 250%;
+    padding-top: 5px;
+    margin-left: 130px;
+    text-align: right;
+    text-shadow: black 1px 1px 8px;
+}
 
+.couverture__titre--strong {
+    margin-right: 5px;
+    margin-bottom: 2px;
 }
