@@ -1,7 +1,49 @@
 form {
-    padding: 10px;
+    padding-top: 20px;
+    margin-inline: 10px;
 }
 
 .form__input {
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form__input input,
+.form__input textarea,
+.form__button,
+.form__input input:focus,
+.form__input textarea:focus {
+    padding-top: 6px;
+    margin-top: 2px;
+    padding-left: 6px;
+    padding-bottom: 3px;
+    background-color: var(--bleu-4);
+    border-radius: 2px;
+    border: none;
+    box-shadow: 1px 1px 2px 1px;
+    outline: none;
+}
+
+.form__intro,
+.form__button {
+    font-size: var(--body-2);
+}
+
+.form__button {
+    border-radius: 30px;
+    padding: 8px;
+    padding-bottom: 7px;
+    margin-left: 10px;
+    width: 80px;
+    margin-top: 20px;
+}
+
+.form__input label {
+    padding-top: 5px;
+}
+
+.form__intro {
+    padding-left: 10px;
+    padding-top: 15px;
 }

@@ -65,9 +65,9 @@
         </nav>
     </header>
 
-    <main>
-        <p>Laissez nous un message, cela ne prend que quelques minutes et nous en serions ravis</p>
-        <form class="form">
+    <main class="content__text">
+        <p class="form__intro">Laissez nous un message, cela ne prend que quelques minutes et nous en serions ravis</p>
+        <form class="form" action="#">
             <div class="form__input">    
                 <label for="nom">Nom</label>
                 <input type="text" id="nom" name="nom" placeholder="Renseignez votre nom" required>
@@ -82,14 +82,10 @@
             </div>
             <div class="form__input">
                 <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Rédigez votre message"></textarea>
+                <textarea rows="6" id="message" name="message" placeholder="Rédigez votre message"></textarea>
             </div>
-            <div class="checkbox">
-                <input type="checkbox" id="notif" name="notif">
-                <label for="notif">Recevoir des notifications</label>
-            </div>  
-            <!-- Form non fonctionnel -->
-            <button type="submit">Envoyer</button>
+            <!-- Formulaire non fonctionnel -->
+            <button class="form__button" type="submit">Envoyer</button>
         </form>
     </main>    
 
