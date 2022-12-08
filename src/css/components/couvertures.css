@@ -2,7 +2,7 @@
     position: relative;
 }
 
-.couverture__titre {
+.couverture__titre--film {
     position: absolute;
     right: 12px;
     bottom: 100px;
@@ -15,4 +15,16 @@
 .couverture__titre--strong {
     margin-right: 5px;
     margin-bottom: 2px;
+}
+
+.couverture__titre--crainte {
+
+}
+
+.couverture__titre--lieu {
+
+}
+
+.couverture__titre--livre {
+    
 }
