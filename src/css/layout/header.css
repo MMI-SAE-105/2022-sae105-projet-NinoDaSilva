@@ -1,5 +1,8 @@
 .header {
-    position: relative;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     background-color: var(--blanc);
     padding: 15px;
     padding-bottom: 5px;
