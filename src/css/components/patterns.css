@@ -15,8 +15,8 @@
     left: 0;
 }
 
-.home__intro--img {
+.pattern--img {
     position: absolute;
-    top: 78px;
-    left: 0;
+    max-width: 110%;
+    margin-left: -20px;
 }
