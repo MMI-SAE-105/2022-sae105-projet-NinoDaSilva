@@ -68,7 +68,6 @@ a:hover {
 .home__intro--text {
     margin: 0;
     margin-inline: 10px;
-    position: relative;
     z-index: 1;
 }
 
