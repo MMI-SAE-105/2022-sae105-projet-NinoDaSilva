@@ -16,13 +16,13 @@ article h2 {
     position: relative;
 }
 
-.film__profil {
-    padding-top: 30px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
 .article__img--film {
     margin-top: 17px;
     max-width: 75%;
+}
+
+.film__profil {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }

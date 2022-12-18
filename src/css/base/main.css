@@ -18,6 +18,11 @@ p, h1, h2, h3, h4 {
     margin: 10px;
 }
 
+.content__text,
+.content__margin-text {
+    text-align: justify;
+}
+
 .content__margin-text {
     margin-bottom: 40px;
 }
@@ -59,8 +64,13 @@ h4 {
 legend {
     color: var(--gris-1);
     font-size: var(--small-text);
-    margin-top: -10px;
+    margin-top: -14px;
     margin-inline: 5px;
+}
+
+.legende__droite {
+    display: flex;
+    justify-content: right;
 }
 
 ul {
@@ -146,6 +156,7 @@ dd {
     padding-bottom: 6px;
     font-size: var(--subheading);
 }
+
 
 
 
