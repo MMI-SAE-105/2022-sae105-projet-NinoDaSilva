@@ -1,4 +1,4 @@
-.frise {
+.frise__container {
     background-color: var(--bleu-2);
     margin: 5px;
     margin-bottom: 0;
@@ -33,10 +33,10 @@
 
 .frise__card--droite {
     right: 0;
-    box-shadow: var(--noir) -4px 5px 8px;
+    box-shadow: var(--noir) -4px 4px 10px;
 }
 
 .frise__card--gauche {
     left: 0;
-    box-shadow: var(--noir) 4px 5px 8px;
+    box-shadow: var(--noir) 4px 4px 10px;
 }

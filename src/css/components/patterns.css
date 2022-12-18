@@ -63,11 +63,6 @@
 }
 
 .pattern__triangle {
-    display: inline-block;
-    height: 0;
-    width: 0;
-    border-right: 180px solid transparent;
-    border-top: 110px solid var(--bleu-2);
-    border-left: 180px solid transparent;
-    margin-left: 5px;
+    margin-inline: 5px;
+    max-width: 97%;
 }
