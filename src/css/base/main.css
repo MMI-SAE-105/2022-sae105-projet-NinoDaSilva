@@ -14,7 +14,8 @@ p, h1, h2, h3, h4 {
 .content__text,
 .titre__subheading,
 .home,
-.home__intro {
+.home__intro,
+.voirAussi {
     margin: 10px;
 }
 
@@ -159,6 +160,10 @@ dd {
     font-size: var(--subheading);
 }
 
+.citation {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
 
 
 
