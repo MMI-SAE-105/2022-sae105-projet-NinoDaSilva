@@ -19,3 +19,12 @@
     position: absolute;
     margin-left: -20px;
 }
+
+.pattern--orange {
+    background: radial-gradient(circle, var(--orange) 40%, transparent 5%);
+    background-size: 1em 1em;
+    height: 35%;
+    width: 76%;
+    position: absolute;
+    right: 30px;
+}

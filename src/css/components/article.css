@@ -9,8 +9,20 @@ article h2 {
     line-height: 150%;
 }
 
-.article__img {
+.article__img,
+.article__img--film {
     border-radius: 5%;
     margin-top: 12px;
     position: relative;
+}
+
+.film__profil {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.article__img--film {
+    margin-top: 17px;
+    max-width: 75%;
 }
