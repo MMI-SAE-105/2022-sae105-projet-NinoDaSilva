@@ -20,7 +20,9 @@
 
 .pattern--img,
 .pattern--long,
-.pattern--court {
+.pattern--court,
+.frise__pattern-droit,
+.frise__pattern-gauche {
     position: absolute;
 }
 
@@ -65,4 +67,18 @@
 .pattern__triangle {
     margin-inline: 5px;
     max-width: 97%;
+}
+
+.frise__pattern-droit,
+.frise__pattern-gauche {
+    width: 80%;
+    margin-top: 75px;
+}
+
+.frise__pattern-droit {
+    left: 45px;
+}
+
+.frise__pattern-gauche {
+    right: 45px;
 }

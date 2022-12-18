@@ -7,10 +7,21 @@
     z-index: 1;
 }
 
-.frise__date {
+.frise__date--droite,
+.frise__date--gauche {
     font-size: 40px;
-    text-shadow: var(--noir) 2px 4px 4px;
-    
+    text-shadow: var(--noir) 3px 3px 5px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.frise__date--droite {
+    right: 35px;
+}
+
+.frise__date--gauche {
+    left: 35px;
 }
 
 .frise__titre {
@@ -29,14 +40,14 @@
     padding: 10px;
     text-align: center;
     width: 50%;
+    position: relative;
 }
 
 .frise__card--droite {
-    right: 0;
-    box-shadow: var(--noir) -4px 4px 10px;
+    left: 38%;
+    box-shadow: var(--noir) -2px 3px 10px;
 }
 
 .frise__card--gauche {
-    left: 0;
-    box-shadow: var(--noir) 4px 4px 10px;
+    box-shadow: var(--noir) 2px 3px 10px;
 }
