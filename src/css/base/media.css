@@ -5,3 +5,14 @@ img {
 video {
    max-width: 100%;
 }
+
+.img__lieu--disco,
+.img__lieu {
+    position: relative;
+    z-index: 1;
+}
+
+.img__lieu--disco {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}

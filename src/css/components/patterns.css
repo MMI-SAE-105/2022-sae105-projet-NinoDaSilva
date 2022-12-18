@@ -1,5 +1,8 @@
 .pattern--left,
-.pattern--right {
+.pattern--right,
+.pattern__lieu--droit-haut,
+.pattern__lieu--droit-bas,
+.pattern__lieu {
     background: radial-gradient(circle, var(--bleu-3) 40%, transparent 5%);
     background-size: 1em 1em;
     height: 24%;
@@ -32,4 +35,29 @@
     width: 76%;
     position: absolute;
     right: 30px;
+}
+
+.pattern__lieu--droit-bas,
+.pattern__lieu--droit-haut,
+.pattern__lieu {
+    width: 63%;
+    height: 5%;
+}
+
+.pattern__lieu--droit-bas,
+.pattern__lieu--droit-haut {
+    right: 0;
+}
+
+.pattern__lieu--droit-bas {
+    margin-top: 245px;
+}
+
+.pattern__lieu--droit-haut {
+    margin-top: -15px;
+}
+
+.pattern__lieu {
+    margin-top: -22px;
+    width: 155px;
 }
