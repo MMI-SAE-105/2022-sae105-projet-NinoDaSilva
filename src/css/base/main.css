@@ -18,8 +18,7 @@ p, h1, h2, h3, h4 {
     margin: 10px;
 }
 
-.content__margin-text,
-.content__text {
+.content__margin-text {
     margin-bottom: 40px;
 }
 
