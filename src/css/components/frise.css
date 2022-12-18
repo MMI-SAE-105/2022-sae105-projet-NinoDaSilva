@@ -1,0 +1,42 @@
+.frise {
+    background-color: var(--bleu-2);
+    margin: 5px;
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+}
+
+.frise__date {
+    font-size: 40px;
+    text-shadow: var(--noir) 2px 4px 4px;
+    
+}
+
+.frise__titre {
+    color: var(--bleu-1);
+    text-align: center;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+.frise__card--droite,
+.frise__card--gauche {
+    background-color: var(--bleu-4);
+    color: var(--noir);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.frise__card--droite {
+    right: 0;
+    box-shadow: var(--noir) -4px 5px 8px;
+}
+
+.frise__card--gauche {
+    left: 0;
+    box-shadow: var(--noir) 4px 5px 8px;
+}
