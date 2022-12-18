@@ -1,5 +1,6 @@
 .couverture {
     position: relative;
+    margin-bottom: 30px;
 }
 .couverture__titre--crainte,
 .couverture__titre--espoir,

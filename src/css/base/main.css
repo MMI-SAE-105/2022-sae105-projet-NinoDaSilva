@@ -124,3 +124,8 @@ dd {
     font-size: var(--subheading);
 }
 
+
+.main__text {
+    margin-inline: 20px;
+    margin-bottom: 30px;
+}
