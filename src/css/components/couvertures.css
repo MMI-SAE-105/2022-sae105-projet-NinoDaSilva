@@ -64,7 +64,7 @@
 .couverture__titre--musique {
     color: var(--noir);
     top: 110px;
-    margin-left: 30px;
+    margin-left: 25px;
     margin-right: 108px;
     text-shadow: var(--ombre) 1px 2px 8px;
 }
