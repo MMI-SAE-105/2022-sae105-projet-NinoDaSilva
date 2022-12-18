@@ -1,5 +1,9 @@
 .galerie {
-    display: flex;
-    
-    margin-inline: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin-inline: 20px;
+    text-align: center;
+    position: relative;
+    color: var(--orange);
 }

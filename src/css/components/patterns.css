@@ -15,8 +15,13 @@
     left: 0;
 }
 
-.pattern--img {
+.pattern--img,
+.pattern--long,
+.pattern--court {
     position: absolute;
+}
+
+.pattern--img {
     margin-left: -20px;
 }
 
