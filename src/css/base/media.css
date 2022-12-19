@@ -20,3 +20,10 @@ video {
 .img__musique-soprano {
     margin-bottom: -40px;
 }
+
+.deepfake {
+    display: flex;
+    border-radius: 10px;
+    max-width: 97%;
+    margin: auto;
+}
