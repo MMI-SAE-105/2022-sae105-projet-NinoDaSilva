@@ -42,7 +42,8 @@ h1, h2, h3 {
     font-family: var(--secondary);
 }
 
-h2 {
+h2,
+.about__title {
     font-size: var(--heading-2);
 }
 
@@ -58,9 +59,15 @@ h3,
     font-size: var(--subheading);
 }
 
+h3,
+.about__title,
+.glossary__title,
+.glossary__word,
+.voirAussi {
+    padding-top: 20px;
+}
 
 h3 {
-    padding-top: 20px;
     padding-bottom: 15px;
     color: var(--orange);
     line-height: 130%;
@@ -109,7 +116,8 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus {
     text-decoration: underline;
 }
 
@@ -134,8 +142,6 @@ p>a {
 }
 
 .about__title {
-    font-size: var(--heading-2);
-    padding-top: 20px;
     padding-bottom: 30px;
 }
 
@@ -146,7 +152,6 @@ p>a {
 
 .glossary__title,
 .glossary__word {
-    padding-top: 20px;
     padding-bottom: 5px;
 }
 
@@ -184,7 +189,6 @@ p>a {
 
 
 .voirAussi {
-    padding-top: 20px;
     padding-bottom: 20px;
 }
 
