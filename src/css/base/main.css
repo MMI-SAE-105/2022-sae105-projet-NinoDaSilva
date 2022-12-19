@@ -196,5 +196,8 @@ p>a {
 
 .voirAussi {
     padding-bottom: 20px;
+    display: flex;
+    gap: 10px;
 }
+
 
