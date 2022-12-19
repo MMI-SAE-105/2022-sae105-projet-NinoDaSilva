@@ -83,27 +83,33 @@ h4 {
 }
 
 
-legend {
+
+.legende,
+.legende__centre,
+.legende__droite,
+.legende__centre--body {
+    display: flex;
     color: var(--gris-1);
     font-size: var(--small-text);
     margin-top: -14px;
     margin-inline: 3px;
 }
 
-.legende__droite,
-.legende__centre {
-    display: flex;
-}
-
 .legende__droite {
     justify-content: right;
 }
 
-.legende__centre {
+.legende__centre,
+.legende__centre--body {
     justify-content: center;
     text-align: center;
     margin-top: -5px;
     margin-inline: 20px;
+}
+
+.legende__centre--body {
+    color: var(--blanc);
+    font-size: var(--body-1);
 }
 
 ul {
