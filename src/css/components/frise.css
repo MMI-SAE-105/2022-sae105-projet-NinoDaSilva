@@ -46,6 +46,7 @@
 .frise__card--droite {
     left: 38%;
     box-shadow: var(--noir) -2px 3px 10px;
+    min-height: 300px;
 }
 
 .frise__card--gauche {
