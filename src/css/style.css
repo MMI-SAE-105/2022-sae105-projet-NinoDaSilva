@@ -10,7 +10,6 @@
 /* base */
 @import url("base/main.css");
 @import url("base/media.css");
-@import url("base/annex.css");
 
 /* layout */
 @import url("layout/header.css");
