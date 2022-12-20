@@ -16,7 +16,15 @@
 .galerie__film-link--Elysium,
 .galerie__film-link--Demonic,
 .galerie__film-link--District9,
-.galerie__film-link--Chappie {
+.galerie__film-link--Chappie,
+.galerie__film-link--Zygote,
+.galerie__film-link--Rakka,
+.galerie__film-link--Firebase,
+.galerie__film-link--Halo,
+.galerie__film-link--Alive,
+.galerie__film-link--Adicolor,
+.galerie__film-link--Tetra,
+.galerie__film-link--Tempbot {
     visibility: hidden;
     position: relative;
     background-color: var(--bleu-2);
@@ -31,7 +39,15 @@
 .film-link-open--Elysium .galerie__film-link--Elysium,
 .film-link-open--Demonic .galerie__film-link--Demonic,
 .film-link-open--District9 .galerie__film-link--District9,
-.film-link-open--Chappie .galerie__film-link--Chappie {
+.film-link-open--Chappie .galerie__film-link--Chappie,
+.film-link-open--Zygote .galerie__film-link--Zygote,
+.film-link-open--Rakka .galerie__film-link--Rakka,
+.film-link-open--Firebase .galerie__film-link--Firebase,
+.film-link-open--Halo .galerie__film-link--Halo,
+.film-link-open--Alive .galerie__film-link--Alive,
+.film-link-open--Adicolor .galerie__film-link--Adicolor,
+.film-link-open--Tetra .galerie__film-link--Tetra,
+.film-link-open--Tempbot .galerie__film-link--Tempbot {
     visibility: visible;
     transition: ease-out 0.5s;
     opacity: 1;
@@ -40,7 +56,15 @@
 .galerie__film-description--Elysium,
 .galerie__film-description--Demonic,
 .galerie__film-description--District9,
-.galerie__film-description--Chappie {
+.galerie__film-description--Chappie,
+.galerie__film-description--Zygote,
+.galerie__film-description--Rakka,
+.galerie__film-description--Firebase,
+.galerie__film-description--Halo,
+.galerie__film-description--Alive,
+.galerie__film-description--Adicolor,
+.galerie__film-description--Tetra,
+.galerie__film-description--Tempbot {
     transition: ease-out 0.5s;
     opacity: 1;
 }
@@ -48,7 +72,15 @@
 .film-link-open--Elysium .galerie__film-description--Elysium,
 .film-link-open--Demonic .galerie__film-description--Demonic,
 .film-link-open--District9 .galerie__film-description--District9,
-.film-link-open--Chappie .galerie__film-description--Chappie {
+.film-link-open--Chappie .galerie__film-description--Chappie,
+.film-link-open--Zygote .galerie__film-description--Zygote,
+.film-link-open--Rakka .galerie__film-description--Rakka,
+.film-link-open--Firebase .galerie__film-description--Firebase,
+.film-link-open--Halo .galerie__film-description--Halo,
+.film-link-open--Alive .galerie__film-description--Alive,
+.film-link-open--Adicolor .galerie__film-description--Adicolor,
+.film-link-open--Tetra .galerie__film-description--Tetra,
+.film-link-open--Tempbot .galerie__film-description--Tempbot {
     visibility: hidden;
     transition: ease-in 0.3s;
     opacity: 0.2;
