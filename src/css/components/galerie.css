@@ -12,3 +12,44 @@
 .galerie__long {
     padding-bottom: 20px;
 }
+
+.galerie__film-link--Elysium,
+.galerie__film-link--Demonic,
+.galerie__film-link--District9,
+.galerie__film-link--Chappie {
+    visibility: hidden;
+    position: relative;
+    background-color: var(--bleu-2);
+    margin-top: -5px;
+    padding: 3px;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: -20px;
+    transition: all 0.4s;
+    opacity: 0.2;
+}
+
+.film-link-open--Elysium .galerie__film-link--Elysium,
+.film-link-open--Demonic .galerie__film-link--Demonic,
+.film-link-open--District9 .galerie__film-link--District9,
+.film-link-open--Chappie .galerie__film-link--Chappie {
+    visibility: visible;
+    transition: ease-out 0.5s;
+    opacity: 1;
+}
+
+.galerie__film-description--Elysium,
+.galerie__film-description--Demonic,
+.galerie__film-description--District9,
+.galerie__film-description--Chappie {
+    transition: ease-out 0.5s;
+    opacity: 1;
+}
+
+.film-link-open--Elysium .galerie__film-description--Elysium,
+.film-link-open--Demonic .galerie__film-description--Demonic,
+.film-link-open--District9 .galerie__film-description--District9,
+.film-link-open--Chappie .galerie__film-description--Chappie {
+    visibility: hidden;
+    transition: ease-in 0.3s;
+    opacity: 0.2;
+}
