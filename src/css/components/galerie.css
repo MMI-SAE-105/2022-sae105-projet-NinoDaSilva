@@ -13,6 +13,10 @@
     padding-bottom: 20px;
 }
 
+.galerie>li:hover {
+    cursor: pointer;
+}
+
 .galerie__film-link--Elysium,
 .galerie__film-link--Demonic,
 .galerie__film-link--District9,
