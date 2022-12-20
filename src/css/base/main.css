@@ -148,7 +148,8 @@ p>a {
 }
 
 .about__title {
-    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 25px;
 }
 
 .about__text {
