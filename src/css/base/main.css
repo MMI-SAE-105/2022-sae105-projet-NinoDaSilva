@@ -145,6 +145,7 @@ a:focus {
 p>a {
     font-style: italic;
     font-size: var(--body-1);
+    text-decoration: underline;
 }
 
 .about__title {
