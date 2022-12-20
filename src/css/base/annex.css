@@ -1,5 +1,21 @@
 .annex {
-    padding: 10px;
     text-align: center;
+    margin: 10px;
+}
+
+h1, h2 {
+    padding: 10px;
+}
+
+p {
+    padding-top: 20px;
+}
+
+h1, h2, a {
     text-transform: uppercase;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: underline;
 }
