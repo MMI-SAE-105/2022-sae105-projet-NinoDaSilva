@@ -16,7 +16,8 @@ p, h1, h2, h3, h4, dd {
 .home,
 .home__intro,
 .voirAussi,
-.content__margin--top {
+.content__margin--top,
+.index {
     margin: 10px;
 }
 
@@ -62,7 +63,8 @@ h3,
 h3,
 .glossary__title,
 .glossary__word,
-.voirAussi {
+.voirAussi,
+.index {
     padding-top: 20px;
 }
 
@@ -201,4 +203,18 @@ p>a {
     gap: 10px;
 }
 
+
+.index {
+    text-align: center;
+}
+
+.index h1 {
+    padding-bottom: 20px;
+}
+
+.index img {
+    width: 50px;
+    height: 50px;
+    margin-inline: 2px;
+}
 
