@@ -208,13 +208,15 @@ p>a {
     text-align: center;
 }
 
-.index h1 {
-    padding-bottom: 20px;
-}
-
-.index img {
+.index_icone {
     width: 50px;
     height: 50px;
-    margin-inline: 2px;
+    margin-inline: 5px;
 }
+
+.index h1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 
