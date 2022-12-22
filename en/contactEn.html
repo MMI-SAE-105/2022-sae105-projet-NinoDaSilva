@@ -64,29 +64,30 @@
         </nav>
     </header>
 
-    <main>
-        <p>Laissez nous un message, cela ne prend que quelques minutes et nous en serions ravis</p>
-        <form>
-            <label for="nom">Nom</label>
-            <input type="text" id="nom" name="nom" placeholder="Renseignez votre nom" required>
-
-            <label for="prenom">Prénom</label>
-            <input type="text" id="prenom" name="prenom" placeholder="Renseignez votre prénom" required>
-            
-            <label for="mail">Mail</label>
-            <input type="email" id="mail" name="mail" placeholder="Renseignez votre mail" required>
-            
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Rédigez votre message"></textarea>
-            
-            <div class="checkbox">
-                <input type="checkbox" id="notif" name="notif">
-                <label for="notif">Recevoir des notifications</label>
-            </div>  
-            <!-- Form non fonctionnel -->
-            <button type="submit">Envoyer</button>
+    <main class="content__margin--top" onclick="document.body.classList.remove('menu-open')">
+        <p class="form__intro">Laissez nous un message, cela ne prend que quelques minutes et nous en serions ravis</p>
+        <form class="form" action="#">
+            <div class="form__input">    
+                <label for="nom">Name</label>
+                <input type="text" id="nom" name="nom" placeholder="Enter your name" required>
+            </div>
+            <div class="form__input">
+                <label for="prenom">First name</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Enter your first name" required>
+            </div>
+            <div class="form__input">
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="mail" placeholder="Enter your email" required>
+            </div>
+            <div class="form__input">
+                <label for="message">Message</label>
+                <textarea rows="6" id="message" name="message" placeholder="Write your message"></textarea>
+            </div>
+            <!-- Formulaire non fonctionnel -->
+            <button class="form__button" type="submit">Send</button>
         </form>
-    </main>    
+        <img class="contact-img" src="../public/img/mail-send.webp" alt="reception mail sur telephone">
+    </main> 
 
     <footer onclick="document.body.classList.remove('menu-open')">
         <img class="footer__logo--mmi" src="../public/assets/Footer/MMI_white.svg" alt="logo MMI">
