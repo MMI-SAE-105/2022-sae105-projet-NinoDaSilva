@@ -12,8 +12,8 @@
     <header>
         <div class="header">
             <div class="header__elt">
-                <a href="../fr/crainte.html"> 
-                    <img class="header__icon--langue" src="../public/assets/Header/royaume-uni.svg" alt="UK icon">
+                <a href="../fr/index.html"> 
+                    <img class="header__icon--langue" src="../public/assets/Header/royaume-uni.svg" alt="icone UK">
                 </a>
                 <a href="./homePage.html">
                     <img class="header__icon--rlevel" src="../public/assets/R-Level.svg" alt="logo R-Level">
@@ -23,35 +23,41 @@
                 </div>
             </div>
         </div>
-        <nav class="menu">
+        <nav id="menu" class="menu">
             <ul>
-                <li>
-                    <a href="./movie.html">Chappie
+                <li class="menu__list">
+                    <a class="menu__link" href="./movie.html">Chappie</a>
+                    <a class="menu__link" href="./movie.html">
                         <img src="../public/assets/clap.svg" alt="icone film">
                     </a>
                 </li>
-                <li>
-                    <a href="./place.html">Pink Street
+                <li class="menu__list">
+                    <a class="menu__link" href="./place.html">Pink Street</a>
+                    <a class="menu__link" href="./place.html">
                         <img src="../public/assets/emplacement.svg" alt="icone lieu">
                     </a>
                 </li>
-                <li>
-                    <a href="./book.html">Divergente
-                       <img src="../public/assets/livre-ouvert.svg" alt="icone livre">
+                <li class="menu__list">
+                    <a class="menu__link" href="./book.html">Divergente</a>
+                    <a class="menu__link" href="./book.html">   
+                        <img src="../public/assets/livre-ouvert.svg" alt="icone livre">
                     </a>
                 </li>
-                <li>
-                    <a href="./music.html">"Mon précieux"
+                <li class="menu__list">
+                    <a class="menu__link" href="./music.html">“Mon précieux”</a>
+                    <a class="menu__link" href="./music.html">
                         <img src="../public/assets/notesMusique.svg" alt="icone musique">
                     </a>
                 </li>
-                <li>
-                    <a href="./hope.html">Sustainable transport
+                <li class="menu__list">
+                    <a class="menu__link" href="./hope.html">Sustainable transport</a>
+                    <a class="menu__link" href="./hope.html">
                         <img src="../public/assets/espoir.svg" alt="icone espoir">
                     </a>
                 </li>
-                <li>
-                    <a href="./fear.html">Technology
+                <li class="menu__list">
+                    <a class="menu__link" href="./fear.html">Technology</a>
+                    <a class="menu__link" href="./fear.html">
                         <img src="../public/assets/avertissement.svg" alt="icone crainte">
                     </a>
                 </li>
@@ -92,44 +98,48 @@
             <source src="public/video/MacronDeepfake.mp4" type="video/mp4">
     </main>    
 
-    <footer>
-        <img src="public/assets/Footer/MMI_white.svg" alt="logo MMI">
-        <img src="public/assets/R-Level_white.svg" alt="logo R-Level">
+    <footer onclick="document.body.classList.remove('menu-open')">
+        <img class="footer__logo--mmi" src="../public/assets/Footer/MMI_white.svg" alt="logo MMI">
+        <img class="footer__logo--rlevel" src="../public/assets/R-Level_white.svg" alt="logo R-Level">
         <nav>
-            <ul class="footer">
-                <li><a href="glossaire.html">Glossaire</a></li>
-                <li><a href="apropos.html">À propos</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="autresProjets.html">Autres projets</a></li>
+            <ul>
+                <li class="footer__list"><a href="./glossary.html">Glossary</a></li>
+                <li class="footer__list"><a href="./about.html">About</a></li>
+                <li class="footer__list"><a href="./contactEn.html">Contact</a></li>
+                <li class="footer__list"><a href="./otherProject.html">Other projects</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="footer__social">
             <li>
                 <a href="https://www.instagram.com/ndsa_9/?igshid=YmMyMTA2M2Y%3D">
-                    <img src="public/assets/Footer/instagram.svg" alt="icone instagram">
+                    <img class="footer__social--icon" src="../public/assets/Footer/instagram.svg" alt="icone instagram">
                 </a>
             </li>
             <li>
                 <a href="https://www.facebook.com/people/Nino-Da-Silva/100082377857186/">
-                    <img src="public/assets/Footer/facebook.svg" alt="icone facebook">
+                    <img class="footer__social--icon" src="../public/assets/Footer/facebook.svg" alt="icone facebook">
                 </a>
             </li>
             <li>
                 <a href="https://twitter.com/n1nO90?t=ttv00QOfcB6j4oQjnFgITw&s=33">
-                    <img src="public/assets/Footer/twitter.svg" alt="icone twitter">
+                    <img class="footer__social--icon" src="../public/assets/Footer/twitter.svg" alt="icone twitter">
                 </a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/nino-da-silva-812374254">
-                    <img src="public/assets/Footer/linkedin.svg" alt="icone linkedin">
+                    <img class="footer__social--icon" src="../public/assets/Footer/linkedin.svg" alt="icone linkedin">
                 </a>
             </li>
         </ul>
-        <a href="mailto:ndsa.nino@gmail.com">ndsa.nino@gmail.com</a>
-        <p>Projet réalisé dans le cadre d'un exercice pédagogique au département</p>
-        <a href="http://mmimontbeliard.com/">MMI de Montbéliard</a>
-        <p>Nino DA SILVA</p>
-        <p>MMI 1</p>
+        <a href="mailto:ndsa.nino@gmail.com" class="footer__mailto">ndsa.nino@gmail.com</a>
+        <p class="footer__text">Project realised as a part of pedagogical exercise in the department </p>
+        <div class="footer__mmi">
+            <a href="http://mmimontbeliard.com/">MMI of Montbéliard</a>
+        </div>
+        <div class="footer__id">   
+            <p>Nino DA SILVA</p>
+            <p>MMI 1</p>
+        </div>
     </footer>
 </body>
 </html>
