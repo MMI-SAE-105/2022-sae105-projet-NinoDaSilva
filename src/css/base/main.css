@@ -15,6 +15,7 @@ p, h1, h2, h3, h4, dd {
 .titre__subheading,
 .home,
 .home__intro,
+.home__intro--en,
 .voirAussi,
 .content__margin--top,
 .index {
@@ -128,17 +129,21 @@ a:focus {
 }
 
 
-.home__intro {
+.home__intro,
+.home__intro--en {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 25%;
-    margin-top: 40%;
+    margin-top: 140px;
+}
+
+.home__intro--en {
+    margin-top: 160px;
 }
 
 .home__intro--text {
-    margin: 0;
-    margin-inline: 10px;
+    margin-inline: 10px auto;
     z-index: 1;
 }
 
