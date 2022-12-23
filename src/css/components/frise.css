@@ -17,11 +17,11 @@
 }
 
 .frise__date--droite {
-    right: 35px;
+    right: 10%;
 }
 
 .frise__date--gauche {
-    left: 35px;
+    left: 10%;
 }
 
 .frise__titre {
@@ -41,12 +41,12 @@
     text-align: center;
     width: 50%;
     position: relative;
+    min-height: 300px;
 }
 
 .frise__card--droite {
     left: 38%;
     box-shadow: var(--noir) -2px 3px 10px;
-    min-height: 300px;
 }
 
 .frise__card--gauche {

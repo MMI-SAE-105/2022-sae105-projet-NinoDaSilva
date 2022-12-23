@@ -73,7 +73,7 @@
 
 .frise__pattern-droit,
 .frise__pattern-gauche {
-    width: 80%;
+    max-width: 80%;
     margin-top: 75px;
 }
 
