@@ -64,6 +64,8 @@
     width: 155px;
 }
 
+.pattern--court,
+.pattern--long,
 .pattern__triangle {
     margin-inline: 5px;
     max-width: 97%;
