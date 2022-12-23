@@ -3,6 +3,7 @@
     margin-bottom: 30px;
 }
 .couverture__titre--crainte,
+.couverture__titre--crainte--en,
 .couverture__titre--espoir,
 .couverture__titre--musique,
 .couverture__titre--lieu,
@@ -54,12 +55,17 @@
     margin-bottom: 5px;
 }
 
-.couverture__titre--crainte {
+.couverture__titre--crainte,
+.couverture__titre--crainte--en {
     color: var(--noir);
     right: 40px;
     top: 110px;
     text-shadow: var(--noir) 1px 1px 1px;
     text-align: center;
+}
+
+.couverture__titre--crainte--en {
+    right: 65px;
 }
 
 .couverture__titre--musique {
