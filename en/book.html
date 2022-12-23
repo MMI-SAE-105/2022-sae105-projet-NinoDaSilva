@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/css/style.css">
-    <title>Divergente</title>
+    <title>Divergent, the image of a future society?</title>
 </head>
 <body>
     <header>
@@ -37,7 +37,7 @@
                     </a>
                 </li>
                 <li class="menu__list">
-                    <a class="menu__link" href="./book.html">Divergente</a>
+                    <a class="menu__link" href="./book.html">Divergent</a>
                     <a class="menu__link" href="./book.html">   
                         <img src="../public/assets/livre-ouvert.svg" alt="icone livre">
                     </a>
@@ -64,58 +64,88 @@
         </nav>
     </header>
 
-    <main>
-        <h1>Divergente L'image d'un société future ?</h1>
-        <img src="public/img/livre/DivCouverture.webp" alt="Couverture du livre">
-        <p>Ce livre, écrit par <a href="https://fr.wikipedia.org/wiki/Veronica_Roth">Veronica Roth</a>, nous plonge dans une société <a href="glossaire.html">dystopique</a>. 
-            Dans une ville se retrouvant totalement entourée d’un grand mur infranchissable qui a pour but de protéger et préserver la paix de sa société. 
-            On va pouvoir suivre la vie de Béatrice, une jeune femme qui va vivre une aventure peu commune et qui n’a pas fini de vous surprendre.
-        </p>
-        <h2>5 factions, une seul ville</h2>
-        <p>La population vivant dans la ville de Chicago est divisée en 5 grandes factions :
+    <main onclick="document.body.classList.remove('menu-open')">
+        <div class="couverture">
+            <img src="../public/img/livre/DivCouverture.webp" alt="book cover">
+            <div class="couverture__titre--livre">
+                <h1 class="titre__strong--livre">Divergent</h1>
+                <h2>The image of a future society?</h2>
+            </div>
+        </div>
+
+        <div class="content__margin-text">
+            <p>This book written by <a href="https://fr.wikipedia.org/wiki/Veronica_Roth">Veronica Roth</a>, takes us into a <strong>dystopic</strong> society. 
+                In a city that is completely surrounded by a great impenetrable wall that aims to protect and preserve the peace of its society. 
+                We will be able to follow the life of Beatrice, a young woman who is going to live an unusual adventure and who will not finish surprising you.
+            </p>
+            <h3>5 factions, one city</h3>
+            <p>The population living in the city of Chicago is divided into 5 major factions:</p>
             <ul>
-                <li>Les Audacieux pour les plus courageux et intrépides ;</li>
-                <li>Les Sincères pour ceux qui disent toujours la vérité, ils sont chargés de la justice et de protéger l’ordre ;</li>
-                <li>Les Érudits pour les plus intelligents ;</li>
-                <li>Les Fraternels pour les plus bienveillants, ils sont chargés de cultiver les champs ;</li>
-                <li> Et les Altruistes pour les plus généreux, ils gouvernent la société.</li>
+                <li>The <strong>Dauntless</strong> for the brave and fearless;</li>
+                <li>The <strong>Sinceres</strong> for those who always tell the truth, they are in charge of justice and protecting order;</li>
+                <li>The <strong>Erudites</strong> for the most intelligent;</li>
+                <li>The <strong>Fraternal</strong> for the most benevolent, they are in charge of cultivating the fields;</li>
+                <li>And the <strong>Altruists</strong> the most generous, they govern society.</li>
             </ul>
-        </p>
-        <img src="public/img/livre/factions.webp" alt="5 Factions de Divergente">
-        <legend>Emblèmes des 5 factions dans Divergente</legend>
-        <h2>Un personnage hors du communu</h2>
-        <p>Béatrice Prior est une jeune femme qui vit dans un monde <a href="glossaire.html">post-apocalyptique</a> où la société est divisée en cinq clans. 
-            À 16 ans, elle est confrontée au choix le plus important de sa vie, qui est de choisir son appartenance dans une faction. Pour cela, elle a passée au préalable un test qui est censé lui indiquer quelle faction choisir pour son avenir. Problème, son test d'aptitude n'est pas concluant : elle est Divergente.
-            Les Divergentes sont des individus rares n'appartenant à aucun clan et ils sont traqués par le gouvernement. Alors en dissimulant son secret, Tris décide d’intégrer l'univers brutal des Audacieux. 
-            En les rejoignant, Béatrice choisie de se nommer sous le pseudonyme « Tris », qui convient mieux à sa nouvelle vie.
-        </p>
-        <h2>Une prise de contrôle absolue, ou peut-être pas</h2>
-        <p>La faction des Érudits est en conflit avec les Altruiste. Ils se dispute le pouvoir. Alors les Érudits, pour prendre le pouvoir, ont synthétisés un sérum dans le but de contrôler l’esprit.
-            Tous les Audacieux sont contraints de recevoir une injection, du fameux sérum. Peu de temps après l’injection, ils se retrouvent tous sous contrôle. Mais Tris, du fait de sa divergence, n'est pas sous son emprise et fait semblant de l'être pour éviter tout soupçon. 
-            Les Audacieux sous emprise sont alors forcés de se battre contre les Altruistes et ainsi permettre aux Érudits de prendre le contrôle de la ville. Mais Tris, avec Quatre, un divergente lui aussi, parviennent à s'échapper.
-            Les divergentes sont en réalité traqués et tués parce qu’ils représentent une trop grande menace pour la société. Dans le sens où ils ne peuvent pas être contrôlés. Le sérum a d’ailleurs aucun effet sur eux.
-        </p>
+        </div>
+        <img src="../public/img/livre/factions.webp" alt="5 Factions in Divergente">
+        <label class="legende__droite">Emblems of the 5 factions in Divergent</label>
+        <div class="content__margin-text">
+            <h3>A character out of the ordinary</h3>
+            <p>Beatrice Prior is a young woman living in a <strong>post-apocalyptic</strong> world where society is divided into five clans.  
+                At age of 16, she is faced with the most important choice of her life, which is to choose which faction she belongs to. 
+                To do this, she has taken a test that is supposed to tell her which faction to choose for her future. Problem, her aptitude test is not conclusive: she is Divergent.
+            </p>
+            <p>Divergents are rare individuals who do not belong to any clan and are hunted down by the government. 
+                So by hiding her secret, Tris decides to join the brutal world of the Dauntless.
+            </p> 
+            <p>When she joins them, Beatrice chooses to go by the pseudonym <q>Tris</q> which better suits her new life.</p>
+
+            <h3>An absolute takeover, or maybe not</h3>
+            <p>The Erudite faction is in conflict with the Altruists. They are fighting for power.</p>
+            <p>So the Erudites, in order to take power, have synthesized a serum in order to control the mind.
+                All the Dauntless are forced to receive an injection of the serum. Soon after the injection, they all find themselves under control. But Tris, because of her discrepancy, is not under his control and pretends to be to avoid suspicion.                
+            </p> 
+            <p>The Dauntless under her control are then forced to fight against the Altruists and thus allow the Erudites to take control of the city.</p> 
+            <p>But Tris, along with Four, also a Divergent, manage to escape.</p>
+            <p>The Divergents are actually being hunted down and killed because they pose too great a threat to society. In the sense that they can't be controlled. The serum has no effect on them.</p>
+        </div>
+
         <section>
-            <h2>Extrait du Livre Insurgent (2011), Tome 1, Chapitre 13</h2>
-            <q>C’est dangereux d’être un Divergent. Sauf que je ne sais toujours pas pourquoi, ni même ce que cela signifie au juste.
-                — Pourquoi ? Elle secoue la tête. — Je ne peux pas t’en parler. Elle regarde derrière elle, vers la lueur lointaine de la Fosse. J’entends des cris, des conversations, le frottement des semelles par terre.
-                L’odeur de la cafétéria flotte jusqu’à mes narines, une odeur douceâtre de levure et de pain qui sort du four. Ma mère se tourne de nouveau vers moi, les traits tendus.
-                — Je veux que tu fasses une chose, reprend-t-elle. Je ne peux pas aller voir ton frère, mais toi si, quand l’initiation sera terminée. Alors, je veux que tu ailles le trouver et que tu lui demandes de faire des recherches sur le sérum de simulation. D’accord ? Tu peux faire ça pour moi ?
-                — Pas tant que tu ne m’auras pas expliqué pourquoi, maman ! Si je dois aller passer la journée dans le secteur des Érudits, ça mérite une explication !
-                Elle m’embrasse et coince derrière mon oreille une mèche de cheveux échappée de mon chignon. — Je suis désolée, chérie, je ne peux pas. Il vaut mieux que je m’en aille, maintenant. Tu feras meilleur effet si on n’a pas l’air d’être trop attachées l’une à l’autre.
-                — Je me fiche de l’effet que je fais, rétorqué je. — Tu as tort. À mon avis, ils t’ont déjà mise sous surveillance.
-                Elle s’en va, et je suis trop sonnée pour la suivre. Elle se retourne au bout du couloir et me lance :
-                — Prends une part de gâteau pour moi, d’accord ? Celui au chocolat. Il est délicieux.
-                Elle m’adresse un drôle de sourire en coin avant d’ajouter : — Tu sais que je t’aime. Je reste seule dans la lumière bleue du couloir et tout se met en place dans ma tête. Elle est déjà venue. Elle se souvient de ce couloir. Elle connaît les procédures d’initiation.
-                Ma mère était une Audacieuse.
-            </q>
+            <h2 class="titre__subheading">Extract from the book Insurgent (2011),</h2>
+            <h2 class="titre__subheading">Volume 1, Chapter 13</h2>
+            <div class="content__margin">
+                <div class="content__text">
+                    <p>"It's dangerous to be a Divergent. Except I still don't know why, or even what it means.</p>
+                    <p class="citation">— Why?</p> 
+                    <p>She shakes her head.</p>
+                    <p class="citation">— I can't tell you.</p> 
+                    <p>She looks behind her, towards the distant glow of the Pit. I hear shouting, conversations, the scrape of soles on the floor.
+                        The smell of the cafeteria wafts up to my nostrils, a sweet smell of yeast and bread from the oven. My mother turns to me again, her face tense.</p>
+                    <p class="citation">— I want you to do one thing. I can't go to your brother, but you can, when the initiation is over. So I want you to go to him and ask him to research the simulation serum. 
+                        Okay? Can you do that for me?
+                    </p>
+                    <p class="citation">— Not until you explain to me why, Mom! If I'm going to spend the day in the Erudites' Corner, it deserves an explanation!</p>
+                    <p>She kisses me and tucks a strand of hair from my bun behind my ear.</p> 
+                    <p class="citation">—  I'm sorry, darling, I can't. I'd better go now. You'll look better if we don't seem to be too attached to each other.</p>
+                    <p class="citation">— I don't care how I look, I said.</p> 
+                    <p class="citation">— You're wrong. My guess is that they've already got you under surveillance.</p>
+                    <p>She leaves, and I'm too stunned to follow her. She turns around at the end of the hall and says to me:</p>
+                    <p class="citation">— Take a piece of cake for me, okay? The chocolate one. It's delicious.</p>
+                    <p>She gives me a funny smirk before adding:</p>
+                    <p class="citation">— You know I love you.</p> 
+                    <p>I stand alone in the blue light of the hallway and everything falls into place in my head. She has been here before. She remembers this hallway. She knows the initiation procedures.
+                        My mother was a Dauntless."
+                    </p>
+                </div>
+            </div>
         </section>
     </main> 
 
-    <section class="voirAussi">
-        <p>Voir aussi :</p>
-        <a href="film.html">Chappie, une histoire proche de la réalité ?</a>
-    </section>
+    <article class="voirAussi">
+        <p>See also:</p>
+        <h4><a href="./film.html">Chappie, a story near to reality?</a></h4>
+    </article>
 
     <footer onclick="document.body.classList.remove('menu-open')">
         <img class="footer__logo--mmi" src="../public/assets/Footer/MMI_white.svg" alt="logo MMI">
