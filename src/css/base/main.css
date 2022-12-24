@@ -174,7 +174,8 @@ p>a {
 
 
 .project,
-.project__title {
+.project__title,
+.project__title--date {
     text-align: center;
 }
 
@@ -185,9 +186,9 @@ p>a {
 
 .project__title--date {
     font-size: var(--body-2);
-    font-family: var(--main);
     color: var(--bleu-4);
-    padding-top: 5px;
+    padding-top: 8px;
+    font-weight: bold;
 }
 
 .project__name {
