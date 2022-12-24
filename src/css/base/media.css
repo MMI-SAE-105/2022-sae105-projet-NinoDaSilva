@@ -5,9 +5,9 @@ img {
 video {
     display: flex;
     border-radius: 10px;
-    max-width: 97%;
+    max-width: 96%;
     margin: auto;
-    border: var(--bleu-2) solid 3px;
+    z-index: 1;
 }
 
 .img__lieu--disco,

@@ -1,0 +1,41 @@
+.animation__border-color {
+    display: grid;
+    position: relative;
+    place-items: center;
+    width: 98%;
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--bleu-1);
+    margin: auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.animation__border-color::before {
+    content: "";
+    position: absolute;
+    height: 60px;
+    width: 120%;
+    justify-content: center;
+    background: linear-gradient(var(--bleu-1), var(--bleu-2));
+    animation: animate 6s linear infinite;
+}
+
+.animation__border-color::after {
+    content: "";
+    position: absolute;
+    background: var(--bleu-2);
+    inset: 0;
+    border-radius: 10px;
+    opacity: 0.5;
+    overflow: hidden;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
