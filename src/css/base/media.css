@@ -3,7 +3,11 @@ img {
 }
 
 video {
-   max-width: 100%;
+    display: flex;
+    border-radius: 10px;
+    max-width: 97%;
+    margin: auto;
+    border: var(--bleu-2) solid 3px;
 }
 
 .img__lieu--disco,
@@ -19,13 +23,6 @@ video {
 
 .img__musique-soprano {
     margin-bottom: -40px;
-}
-
-.deepfake {
-    display: flex;
-    border-radius: 10px;
-    max-width: 97%;
-    margin: auto;
 }
 
 .contact-img {
