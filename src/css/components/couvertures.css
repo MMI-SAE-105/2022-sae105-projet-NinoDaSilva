@@ -21,8 +21,8 @@
 }
 
 .couverture__titre--film {
-    right: 12px;
-    bottom: 100px;
+    right: 3%;
+    bottom: 13%;
     margin-left: 130px;
     text-shadow: black 1px 2px 8px;
 }
@@ -34,8 +34,8 @@
 
 .couverture__titre--lieu {
     color: var(--bleu-1);
-    left: 35px;
-    bottom: 90px;
+    right: 6%;
+    bottom: 12%;
     text-shadow: var(--ombre) 1px 2px 3px;
 }
 
@@ -45,8 +45,8 @@
 }
 
 .couverture__titre--livre {
-    right: 15px;
-    bottom: 320px;
+    right: 4%;
+    bottom: 44%;
     text-shadow: var(--noir) 2px 2px 8px;
 }
 
@@ -55,36 +55,31 @@
     margin-bottom: 5px;
 }
 
-.couverture__titre--crainte,
-.couverture__titre--crainte--en {
+.couverture__titre--crainte {
     color: var(--noir);
-    right: 40px;
-    top: 110px;
+    right: 11%;
+    left: 11%;
+    top: 15%;
     text-shadow: var(--noir) 1px 1px 1px;
     text-align: center;
 }
 
-.couverture__titre--crainte--en {
-    right: 65px;
-}
-
 .couverture__titre--musique {
     color: var(--noir);
-    top: 110px;
-    margin-left: 25px;
-    margin-right: 108px;
+    top: 15%;
+    right: 30%;
+    margin-left: 15px;
     text-shadow: var(--ombre) 1px 2px 8px;
 }
 
 .couverture__titre--espoir {
     color: var(--bleu-1);
-    top: 110px;
-    left: 40px;
+    top: 15%;
+    left: 9%;
     text-shadow: var(--ombre) 1px 2px 6px;
 }
 
 .titre__strong--espoir {
-    margin-top: 40px;
-    margin-right: 20px;
-    margin-left: 50px;
+    margin-top: 13%;
+    margin-left: 17%;
 }
