@@ -57,8 +57,8 @@
 
 .couverture__titre--crainte {
     color: var(--noir);
-    right: 11%;
-    left: 11%;
+    right: 5%;
+    left: 5%;
     top: 15%;
     text-shadow: var(--noir) 1px 1px 1px;
     text-align: center;
