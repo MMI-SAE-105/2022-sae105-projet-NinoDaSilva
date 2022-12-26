@@ -36,7 +36,7 @@
     color: var(--bleu-1);
     right: 6%;
     bottom: 12%;
-    text-shadow: var(--ombre) 1px 2px 3px;
+    text-shadow: var(--ombre) 1px 2px 4px;
 }
 
 .titre__strong--lieu {
@@ -60,7 +60,7 @@
     right: 5%;
     left: 5%;
     top: 15%;
-    text-shadow: var(--noir) 1px 1px 1px;
+    text-shadow: var(--noir) 1px 1px 40px;
     text-align: center;
 }
 
@@ -69,14 +69,14 @@
     top: 15%;
     right: 30%;
     margin-left: 15px;
-    text-shadow: var(--ombre) 1px 2px 8px;
+    text-shadow: var(--ombre) 1px 2px 9px;
 }
 
 .couverture__titre--espoir {
     color: var(--bleu-1);
     top: 15%;
     left: 9%;
-    text-shadow: var(--ombre) 1px 2px 6px;
+    text-shadow: var(--ombre) 1px 2px 12px;
 }
 
 .titre__strong--espoir {
