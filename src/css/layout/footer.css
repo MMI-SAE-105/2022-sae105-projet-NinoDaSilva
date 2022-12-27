@@ -42,6 +42,10 @@ footer {
     display: inline;
 }
 
+.footer__logo--mmi {
+    padding: 12px;
+}
+
 .footer__logo--mmi,
 .mmi-hexagone-int {
     width: 64px;
@@ -50,26 +54,9 @@ footer {
     padding-bottom: 0;
 }
 
-.footer__logo--mmi {
-    padding: 12px;
+.footer__logo--mmi img {
+    z-index: 1;
 }
-
-.mmi-hexagone {
-    left: 5%;
-    position: absolute;
-    clip-path: polygon(30% 18%, 74% 18%, 95% 55%, 74% 92%, 30% 91%, 9% 55%);
-    background-color: white;
-    rotate: 30deg;
-}
-
-.mmi-hexagone::before {
-    content: "";
-    background-color: var(--noir);
-    inset: 0;
-    rotate: 30deg;
-    position: absolute;
-}
-
 
 .footer__social {
     display: flex;
