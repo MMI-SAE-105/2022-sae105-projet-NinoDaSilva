@@ -42,13 +42,34 @@ footer {
     display: inline;
 }
 
-.footer__logo--mmi {
+.footer__logo--mmi,
+.mmi-hexagone-int {
     width: 64px;
     height: 64px;
     display: flex;
-    padding: 12px;
     padding-bottom: 0;
 }
+
+.footer__logo--mmi {
+    padding: 12px;
+}
+
+.mmi-hexagone {
+    left: 5%;
+    position: absolute;
+    clip-path: polygon(30% 18%, 74% 18%, 95% 55%, 74% 92%, 30% 91%, 9% 55%);
+    background-color: white;
+    rotate: 30deg;
+}
+
+.mmi-hexagone::before {
+    content: "";
+    background-color: var(--noir);
+    inset: 0;
+    rotate: 30deg;
+    position: absolute;
+}
+
 
 .footer__social {
     display: flex;

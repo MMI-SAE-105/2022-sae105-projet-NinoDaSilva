@@ -39,3 +39,8 @@
         transform: rotate(360deg);
     }
 }
+
+
+.mmi-hexagone {
+    animation:  6s linear infinite;
+}
