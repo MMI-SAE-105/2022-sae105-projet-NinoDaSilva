@@ -68,3 +68,48 @@
     position: absolute;
     clip-path: polygon(31% 19%, 72% 19%, 92% 54%, 72% 90%, 30% 90%, 10% 55%);
 }
+
+.galerie__film-border--1,
+.galerie__film-border--2 {
+    display: grid;
+    position: relative;
+    place-items: center;
+    width: 100%;
+    background: transparent;
+    overflow: hidden;
+    margin: -2px;
+    margin-top: 0;
+    margin-bottom: -2px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.galerie__film-border--1::before,
+.galerie__film-border--2::before {
+    content: "";
+    position: absolute;
+    height: 200%;
+    width: 200%;
+    background: linear-gradient(var(--bleu-2), var(--bleu-4));
+    animation: gradient 5s alternate infinite;
+}
+
+.galerie__film-border--1::after {
+    animation: gradient 5s alternate infinite;
+}
+
+.galerie__film-border--2::after {
+    animation: gradient 6s reverse infinite;
+}
+
+@keyframes gradient {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

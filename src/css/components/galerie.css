@@ -13,6 +13,10 @@
     padding-bottom: 20px;
 }
 
+.galerie img {
+    z-index: 1;
+}
+
 /* Accessibilité */
 .galerie li img:hover {
     cursor: pointer;
@@ -33,7 +37,7 @@
     visibility: hidden;
     position: relative;
     background-color: var(--bleu-2);
-    margin-top: -5px;
+    margin-inline: -2px;
     padding: 3px;
     border-radius: 0 0 8px 8px;
     margin-bottom: -20px;
