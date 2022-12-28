@@ -12,12 +12,12 @@
 --ombre: #677381;
 
 /* Text-size styles */
---heading-1: 30px;
---heading-2: 22px;
---subheading: 17px;
---body-2: 14px;
---body-1: 13px;
---small-text: 11px;
+--heading-1: 1.875rem;
+--heading-2: 1.375rem;
+--subheading: 1.063rem;
+--body-2: 0.875rem;
+--body-1: 0.813rem;
+--small-text: 0.688rem;
 
 /* police */
 --main: 'Overpass', sans-serif;
