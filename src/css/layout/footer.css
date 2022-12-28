@@ -15,8 +15,7 @@ footer {
     font-size: var(--small-text);
     color: var(--gris-1);
     padding-top: 30px;
-    padding-bottom: 5px;
-    margin: 0;
+    padding-bottom: 3px;
 }
 
 .footer__mailto {
