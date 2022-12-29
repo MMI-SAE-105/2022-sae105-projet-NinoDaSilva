@@ -130,17 +130,11 @@ a:focus {
 }
 
 
-.home__intro,
-.home__intro--en {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 25%;
-    margin-top: 140px;
-}
-
-.home__intro--en {
-    margin-top: 160px;
+.home__intro {
+    display: grid;
+    margin-bottom: 100px;
+    margin-top: 145px;
+    height: 150px;
 }
 
 .home__intro--text {
