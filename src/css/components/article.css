@@ -1,12 +1,18 @@
 article {
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     text-align: center;
     max-width: 710px;
 }
 
+.article--right {
+    margin-left: 2px;
+    margin-right: -2px;
+}
+
 article h2 {
     margin-inline: 10px;
+    margin-top: 3px;
     line-height: 150%;
 }
 
