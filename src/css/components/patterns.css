@@ -12,10 +12,12 @@
 
 .pattern--right {
     right: 0;
+    margin-top: -12px;
 }
 
 .pattern--left {
     left: 0;
+    margin-top: -12px;
 }
 
 .pattern--img,

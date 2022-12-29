@@ -113,3 +113,23 @@
         transform: rotate(360deg);
     }
 }
+
+.animation__home {
+    display: grid;
+    position: relative;
+    place-items: center;
+    width: 100%;
+    overflow: hidden;
+    margin: -2px;
+    padding: 2px;
+    border-radius: 22px;
+}
+
+.animation__home::before {
+    content: "";
+    position: absolute;
+    height: 200%;
+    width: 200%;
+    background: linear-gradient(var(--bleu-3), var(--bleu-2));
+    animation: gradient 4s alternate infinite;
+}
