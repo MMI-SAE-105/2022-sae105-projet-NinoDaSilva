@@ -1,10 +1,14 @@
+.frise {
+    position: relative;
+    max-width: 1080px;
+}
+
 .frise__container {
     background-color: var(--bleu-2);
     margin: 5px;
     margin-bottom: 0;
     padding: 10px;
     border-radius: 20px 20px 0 0;
-    z-index: 1;
 }
 
 .frise__date--droite,
@@ -40,8 +44,10 @@
     padding: 10px;
     text-align: center;
     width: 50%;
-    position: relative;
+    max-width: 300px;
     min-height: 300px;
+    position: relative;
+    z-index: 1;
 }
 
 .frise__card--droite {

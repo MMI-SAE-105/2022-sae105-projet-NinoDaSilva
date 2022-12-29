@@ -8,6 +8,7 @@
     height: 24%;
     width: 80%;
     position: absolute;
+    margin: auto;
 }
 
 .pattern--right {
@@ -67,9 +68,12 @@
 }
 
 .pattern--court,
-.pattern--long,
-.pattern__triangle {
+.pattern--long {
     margin-inline: 5px;
+}
+
+.pattern--court,
+.pattern--long {
     max-width: 97%;
 }
 
@@ -77,12 +81,29 @@
 .frise__pattern-gauche {
     max-width: 80%;
     margin-top: 75px;
+    z-index: 1;
 }
 
 .frise__pattern-droit {
-    left: 45px;
+    left: 12%;
 }
 
 .frise__pattern-gauche {
-    right: 45px;
+    right: 12%;
+}
+
+.frise__triangle {
+    border-style: solid;
+    border-width: 250px;
+    border-bottom-width: 0;
+    border-top-width: 150px;
+    border-color: var(--bleu-2) transparent transparent transparent;
+}
+
+.frise__triangle-container {
+    display: grid;
+    justify-content: center;
+    contain: content;
+    margin-inline: 5px;
+    max-width: 100%;
 }
