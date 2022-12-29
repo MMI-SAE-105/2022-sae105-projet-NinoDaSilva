@@ -121,6 +121,7 @@
     width: 100%;
     overflow: hidden;
     margin: -2px;
+    margin-bottom: 3px;
     padding: 2px;
     border-radius: 22px;
 }
