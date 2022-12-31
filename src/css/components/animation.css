@@ -123,12 +123,6 @@
     margin: -3px;
     padding: 3px;
     border-radius: 8%;
-    /* Compatibilité avec Safari */
-    -webkit-border-radius: 8%; 
-    -moz-border-radius: 8%;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
 }
 
 .animation__home::before {
