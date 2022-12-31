@@ -43,6 +43,7 @@
     width: 76%;
     position: absolute;
     right: 30px;
+    border-radius: 32px;
 }
 
 .pattern__lieu--droit-bas,
