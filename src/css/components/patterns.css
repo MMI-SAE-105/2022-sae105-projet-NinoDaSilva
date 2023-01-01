@@ -39,10 +39,10 @@
 .pattern--orange {
     background: radial-gradient(circle, var(--orange) 40%, transparent 5%);
     background-size: 1em 1em;
-    height: 35%;
+    height: 90%;
     width: 76%;
     position: absolute;
-    right: 30px;
+    right: 8%;
     border-radius: 32px;
 }
 
