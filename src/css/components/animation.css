@@ -118,11 +118,9 @@
     display: grid;
     position: relative;
     place-items: center;
-    width: 99%;
     overflow: hidden;
     margin: -4px;
     padding: 4px;
-    border-radius: 8%;
 }
 
 .animation__home::before {
@@ -132,4 +130,12 @@
     width: 200%;
     background: linear-gradient(var(--bleu-1), var(--bleu-3));
     animation: gradient 4s alternate infinite;
+}
+
+.animation__home-container {
+    contain: content; 
+    border-radius: 8%;
+    margin: -4px;
+    padding: 4px;
+    width: 99%;
 }
