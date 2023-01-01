@@ -134,7 +134,7 @@
 
 .animation__home-container {
     contain: content; 
-    border-radius: 8%;
+    border-radius: 22px;
     margin: -4px;
     padding: 4px;
     width: 99%;

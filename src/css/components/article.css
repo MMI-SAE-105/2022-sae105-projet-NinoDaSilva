@@ -23,7 +23,7 @@ article h2 {
 
 .article__img,
 .article__img--film {
-    border-radius: 8%;
+    border-radius: 22px;
     position: relative;
 }
 
