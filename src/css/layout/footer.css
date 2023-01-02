@@ -61,11 +61,14 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    max-width: 400px;
+    margin: 15px auto;
 }
 
 .footer__social--icon {
     height: 34px;
     width: 34px;
     margin-inline: 30px;
+    margin-left: 28px;
 }
 

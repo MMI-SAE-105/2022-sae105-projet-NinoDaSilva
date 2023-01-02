@@ -1,6 +1,8 @@
 .couverture {
     position: relative;
     margin-bottom: 30px;
+    contain: content;
+    max-width: 750px;
 }
 .couverture__titre--crainte,
 .couverture__titre--crainte--en,
